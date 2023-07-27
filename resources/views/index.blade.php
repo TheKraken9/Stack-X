@@ -5,19 +5,19 @@
     <title>Purple Buzz HTML Template with Bootstrap 5 Beta 1</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -85,7 +85,7 @@ https://templatemo.com/tm-561-purple-buzz
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
                                 <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
-                                    Develop <strong>Strategies</strong> for 
+                                    Develop <strong>Strategies</strong> for
                                   <br>your business
                               </h1>
                                 <p class="banner-body text-muted py-3 mx-0 px-0">
@@ -191,7 +191,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project ui branding">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="service card-img" src="./assets/img/services-01.jpg" alt="Card image">
+                    <img class="service card-img" src="/img/services-01.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">UI/UX design</span>
@@ -204,7 +204,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-02.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-02.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Social Media</span>
@@ -217,7 +217,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project branding">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-03.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-03.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Marketing</span>
@@ -230,7 +230,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-04.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-04.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Graphic</span>
@@ -243,7 +243,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-05.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-05.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Digtal Marketing</span>
@@ -256,7 +256,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project branding">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-06.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-06.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Market Research</span>
@@ -269,7 +269,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project branding">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-07.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-07.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Business</span>
@@ -282,7 +282,7 @@ https://templatemo.com/tm-561-purple-buzz
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic branding">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="./assets/img/services-08.jpg" alt="Card image">
+                    <img class="card-img" src="/img/services-08.jpg" alt="Card image">
                     <div class="service-work-vertical card-img-overlay d-flex align-items-end">
                         <div class="service-work-content text-left text-light">
                             <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span>
@@ -331,7 +331,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-01.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Social Media</h3>
@@ -344,7 +344,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-02.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Web Marketing</h3>
@@ -357,7 +357,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-03.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">R & D</h3>
@@ -370,7 +370,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-04.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="/img/recent-work-04.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Public Relation</h3>
@@ -383,7 +383,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-05.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="/img/recent-work-05.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Branding</h3>
@@ -396,7 +396,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-06.jpg" alt="Card image">
+                        <img class="recent-work-img card-img" src="/img/recent-work-06.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Creative Design</h3>
@@ -538,11 +538,11 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Load jQuery require for isotope -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Isotope -->
-    <script src="assets/js/isotope.pkgd.js"></script>
+    <script src="/js/isotope.pkgd.js"></script>
     <!-- Page Script -->
     <script>
         $(window).load(function() {
@@ -565,9 +565,9 @@ https://templatemo.com/tm-561-purple-buzz
         });
     </script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 
