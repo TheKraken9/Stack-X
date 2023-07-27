@@ -5,19 +5,19 @@
     <title>Purple Buzz - About Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -29,7 +29,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.blade.php">
+            <a class="navbar-brand h1" href="{{ route('index') }}">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
                 <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
             </a>
@@ -41,19 +41,19 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.blade.php">Home</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.blade.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.blade.php">Pricing</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.blade.php">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -79,7 +79,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./assets/img/banner-img-02.svg">
+                    <img src="/img/banner-img-02.svg">
                 </div>
             </div>
         </div>
@@ -101,21 +101,21 @@ https://templatemo.com/tm-561-purple-buzz
 
             <div class="col-lg-9 row">
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-01.jpg" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                         <li>John Doe</li>
                         <li>Business Development</li>
                     </ul>
                 </div>
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-02.jpg" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                         <li>Jane Doe</li>
                         <li>Media Development</li>
                     </ul>
                 </div>
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-03.jpg" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                         <li>Sam</li>
                         <li>Developer</li>
@@ -212,7 +212,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="container my-4">
             <div class="row">
                 <div class="banner-img col-lg-5">
-                    <img src="./assets/img/work.svg" class="rounded img-fluid" alt="">
+                    <img src="/img/work.svg" class="rounded img-fluid" alt="">
                 </div>
                 <div class="banner-content col-lg-7 align-self-end">
                     <h2 class="h2 pb-3">Why you choose us?</h2>
@@ -273,7 +273,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="col-lg-6 mx-auto my-4 p-3">
                     <form action="#" method="get"><h1 class="h2 text-center">Stay up to date with us</h1>
                     <div class="input-group py-3">
-                    
+
                         <input name="email" type="text" class="form-control form-control-lg rounded-pill rounded-end" id="email" placeholder="Your Email" aria-label="Your Email">
                         <button class="btn btn-secondary text-white btn-lg rounded-pill rounded-start px-lg-4" type="submit">Subsribe</button>
                     </div>
@@ -411,11 +411,11 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 
