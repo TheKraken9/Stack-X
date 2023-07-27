@@ -5,19 +5,31 @@
     <title>Purple Buzz - Work Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -29,7 +41,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.blade.php">
+            <a class="navbar-brand h1" href="{{ route('index') }}">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
                 <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
             </a>
@@ -41,19 +53,19 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.blade.php">Home</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.blade.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.blade.php">Pricing</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.blade.php">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -103,7 +115,9 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="row projects gx-lg-5">
             <a href="work-single.blade.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
                 <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
-                    <img class="card-img-top" src="./assets/img/our-work-01.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-01.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-01.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-01.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 text-dark">Digital Marketing</h5>
                         <p class="card-text light-300 text-dark">
@@ -118,7 +132,9 @@ https://templatemo.com/tm-561-purple-buzz
             </a>
             <a href="work-single.blade.php" class="col-sm-6 col-lg-4 text-decoration-none project graphic social">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-02.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-02.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-02.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-02.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 text-dark">Corporate Branding</h5>
                         <p class="card-text light-300 text-dark">
@@ -133,7 +149,9 @@ https://templatemo.com/tm-561-purple-buzz
             </a>
             <a href="work-single.blade.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic business">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-03.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-03.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-03.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-03.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 text-dark">Leading Digital Solution</h5>
                         <p class="card-text light-300 text-dark">
@@ -148,7 +166,9 @@ https://templatemo.com/tm-561-purple-buzz
             </a>
             <a href="work-single.blade.php" class="col-sm-6 col-lg-4 text-decoration-none project social business">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-04.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-04.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-04.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-04.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 text-dark">Smart Applications</h5>
                         <p class="card-text light-300 text-dark">
@@ -163,7 +183,9 @@ https://templatemo.com/tm-561-purple-buzz
             </a>
             <a href="work-single.blade.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-05.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-05.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-05.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-05.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 text-dark">Corporate Stationary</h5>
                         <p class="card-text light-300 text-dark">
@@ -178,7 +200,9 @@ https://templatemo.com/tm-561-purple-buzz
             </a>
             <a href="work-single.blade.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic">
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-                    <img class="card-img-top" src="./assets/img/our-work-06.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-06.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-06.jpg" alt="...">
+                    <img class="card-img-top" src="/img/our-work-06.jpg" alt="...">
                     <div class="card-body">
                         <h5 class="card-title light-300 text-dark">8 Financial Tips</h5>
                         <p class="card-text light-300 text-dark">
@@ -228,19 +252,35 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
                 <div class="col-lg-6 offset-lg-1 align-left">
                     <div class="row">
-                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-1-large.jpg">
-                            <img class="img-fluid" src="./assets/img/feature-work-1.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-1-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-1-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-1-large.jpg">
+                            <img class="img-fluid" src="/img/feature-work-1.jpg">
+                            <img class="img-fluid" src="/img/feature-work-1.jpg">
+                            <img class="img-fluid" src="/img/feature-work-1.jpg">
                         </a>
-                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-2-large.jpg">
-                            <img class="img-fluid" src="./assets/img/feature-work-2.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-2-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-2-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-2-large.jpg">
+                            <img class="img-fluid" src="/img/feature-work-2.jpg">
+                            <img class="img-fluid" src="/img/feature-work-2.jpg">
+                            <img class="img-fluid" src="/img/feature-work-2.jpg">
                         </a>
                     </div>
                     <div class="row pt-4">
-                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-3-large.jpg">
-                            <img class="img-fluid" src="./assets/img/feature-work-3.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-3-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-3-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-3-large.jpg">
+                            <img class="img-fluid" src="/img/feature-work-3.jpg">
+                            <img class="img-fluid" src="/img/feature-work-3.jpg">
+                            <img class="img-fluid" src="/img/feature-work-3.jpg">
                         </a>
-                        <a class="col" data-type="image" data-fslightbox="gallery" href="./assets/img/feature-work-4-large.jpg">
-                            <img class="img-fluid" src="./assets/img/feature-work-4.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-4-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-4-large.jpg">
+                        <a class="col" data-type="image" data-fslightbox="gallery" href="/img/feature-work-4-large.jpg">
+                            <img class="img-fluid" src="/img/feature-work-4.jpg">
+                            <img class="img-fluid" src="/img/feature-work-4.jpg">
+                            <img class="img-fluid" src="/img/feature-work-4.jpg">
                         </a>
                     </div>
                 </div>
@@ -375,16 +415,24 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Lightbox -->
-    <script src="assets/js/fslightbox.js"></script>
+    <script src="/js/fslightbox.js"></script>
+    <script src="/js/fslightbox.js"></script>
+    <script src="/js/fslightbox.js"></script>
     <script>
         fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
     </script>
     <!-- Load jQuery require for isotope -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Isotope -->
-    <script src="assets/js/isotope.pkgd.js"></script>
+    <script src="/js/isotope.pkgd.js"></script>
+    <script src="/js/isotope.pkgd.js"></script>
+    <script src="/js/isotope.pkgd.js"></script>
     <!-- Page Script -->
     <script>
         $(window).load(function() {
@@ -407,9 +455,13 @@ https://templatemo.com/tm-561-purple-buzz
         });
     </script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 

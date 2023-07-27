@@ -5,19 +5,19 @@
     <title>Purple Buzz - Work Detail Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -29,7 +29,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.blade.php">
+            <a class="navbar-brand h1" href="{{ route('index') }}">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
                 <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
             </a>
@@ -41,19 +41,19 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.blade.php">Home</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.blade.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.blade.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.blade.php">Pricing</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.blade.php">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +105,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="row justify-content-center pb-4">
             <div class="col-lg-8">
                 <div id="templatemo-slide-link-target" class="card mb-3">
-                    <img class="img-fluid border rounded" src="./assets/img/work-slide-04.jpg" alt="Card image cap">
+                    <img class="img-fluid border rounded" src="/img/work-slide-04.jpg" alt="Card image cap">
                 </div>
                 <div class="worksingle-slide-footer row">
 
@@ -126,28 +126,28 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-06.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-06-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-06.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-06-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-05.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-05-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-05.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-05-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-04.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-04-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-04.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-04-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-03.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-03-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-03.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-03-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                 </div>
@@ -158,28 +158,28 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-03.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-03-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-03.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-03-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-02.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-02-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-02.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-02-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-06.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-06-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-06.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-06-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                 </div>
@@ -190,28 +190,28 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-03.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-03-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-03.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-03-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-02.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-02-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-02.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-02-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-06.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-06-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-06.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-06-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="worksingle-comment-body col-md-8 m-auto">
                 <div class="d-flex">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-05.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-05.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -326,7 +326,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-lg-8 m-auto">
                 <div class="d-flex">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-01.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-01.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -353,7 +353,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-lg-8 m-auto">
                 <div class="d-flex ml-4">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-05.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-05.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -380,7 +380,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-lg-8 m-auto">
                 <div class="d-flex ml-5">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-01.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-01.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -448,7 +448,7 @@ https://templatemo.com/tm-561-purple-buzz
 
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-01.jpg" alt="Card image cap">
+                                <img class="related-img card-img-top" src="/img/related-post-01.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -466,7 +466,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-02.jpg" alt="Card image cap">
+                                <img class="related-img card-img-top" src="/img/related-post-02.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">App Development</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -484,7 +484,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-03.jpg" alt="Card image cap">
+                                <img class="related-img card-img-top" src="/img/related-post-03.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -633,9 +633,9 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Load jQuery require for Page Script -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Page Script -->
     <script>
         $(window).load(function() {
@@ -649,9 +649,9 @@ https://templatemo.com/tm-561-purple-buzz
         });
     </script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 
