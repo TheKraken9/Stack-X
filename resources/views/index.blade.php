@@ -26,10 +26,10 @@ https://templatemo.com/tm-561-purple-buzz
 </head>
 
 <body>
-    <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+       <!-- Header -->
+       <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
+            <a class="navbar-brand h1" href="{{ route('index') }}">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
                 <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
             </a>
@@ -41,19 +41,19 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.blade.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.blade.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.blade.php">Pricing</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.blade.php">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>

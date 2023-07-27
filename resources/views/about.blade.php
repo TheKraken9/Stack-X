@@ -5,17 +5,17 @@
     <title>Purple Buzz - About Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 <!--
     
 TemplateMo 561 Purple Buzz
@@ -26,10 +26,10 @@ https://templatemo.com/tm-561-purple-buzz
 </head>
 
 <body>
-    <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <!-- Header -->
+        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.blade.php">
+            <a class="navbar-brand h1" href="{{ route('index') }}">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
                 <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
             </a>
@@ -41,19 +41,19 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.blade.php">Home</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.blade.php">Work</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.blade.php">Pricing</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.blade.php">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
