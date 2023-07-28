@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Purple Buzz HTML Template with Bootstrap 5 Beta 1</title>
+    <title>Stack-X | Accueil</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
@@ -23,44 +23,85 @@ TemplateMo 561 Purple Buzz
 https://templatemo.com/tm-561-purple-buzz
 
 -->
+    <style>
+
+    </style>
 </head>
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="{{ route('index') }}">
-                <i class='bx bx-buildings bx-sm text-dark'></i>
-                <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
+
+                <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-4">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('about') }}">Société</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="#">À propos</a>
+                                <a class="dropdown-item text-gray" href="#">L'équipe</a>
+                                <a class="dropdown-item text-gray" href="#">Pourquoi Stack-X</a>
+                                <a class="dropdown-item text-gray" href="#">Partenaires</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('about') }}">Services</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="#">Consultant</a>
+                                <a class="dropdown-item text-gray" href="#">Design D'expérience utilisateur</a>
+                                <a class="dropdown-item text-gray" href="#">Développement web et app</a>
+                                <a class="dropdown-item text-gray" href="#">Création site web</a>
+                                <a class="dropdown-item text-gray" href="#">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="#">Données géographiques</a>
+                                <a class="dropdown-item text-gray" href="#">Objets connectés</a>
+                                <!-- Add more dropdown items here -->
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('work') }}">Technologies</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('pricing') }}">Références</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="#">Portfolio</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Processus</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="#">Nos processus d'intervention</a>
+                                <a class="dropdown-item text-gray" href="#">Nos visions méthodologique</a>
+                                <a class="dropdown-item text-gray" href="#">Nos dispositifs</a>
+                                <!-- Add more dropdown items here -->
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                    <a class="nav-link text-gray" href="#"><small>Blog</small></a>
+                    <a class="nav-link btn-outline-primary rounded-pill" href="#"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
         </div>
@@ -416,12 +457,11 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Start Footer -->
     <footer class="bg-secondary pt-4">
         <div class="container">
-            <div class="row py-4">
+            <div class="row py-3">
 
                 <div class="col-lg-3 col-12 align-left">
                     <a class="navbar-brand" href="index.html">
-                        <i class='bx bx-buildings bx-sm text-light'></i>
-                        <span class="text-light h5">Purple</span> <span class="text-light h5 semi-bold-600">Buzz</span>
+                        <span class="text-light h5">Stack -</span> <span class="text-light h5 semi-bold-600">X</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -443,66 +483,76 @@ https://templatemo.com/tm-561-purple-buzz
                                 <i class='bx bxl-whatsapp-square bx-md'></i>
                             </a>
                         </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.flickr.com/">
-                                <i class='bx bxl-flickr-square bx-md'></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.medium.com/">
-                                <i class='bx bxl-medium-square bx-md' ></i>
-                            </a>
-                        </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+                    <h2 class="h4 pb-lg-3 text-light light-300">Services</h2>
                         <ul class="list-unstyled text-light light-300">
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Home</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Developpement web</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.blade.php">About Us</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.blade.php">Developpement mobile</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.blade.php">Work</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.blade.php">Developpement desktop</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.blade.php">Price</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.blade.php">Consultant</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.blade.php">Contact</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.blade.php">Objets connectés</a>
                             </li>
                         </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
+                <div class="col-lg-2 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Techonologies</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Branding</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Java</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Business</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Symfony</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Marketing</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">React.js</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">.Net</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">AngularJs</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">WordPress</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Société</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">À propos</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">L'équipe</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Pourquoi Stack-X</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Digital Solution</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Graphic</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Partenaires</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h2 class="h4 pb-lg-3 text-light light-300">For Client</h2>
+                <div class="col-lg-2 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Contact</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
                             <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
@@ -521,12 +571,12 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Purple Buzz Company. All Rights Reserved.
+                            © Copyright 2023 <strong> Stack-X </strong> . Tout droit réservé.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>TemplateMo</strong></a>
+                            <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>ZokyRal</strong></a>
                         </p>
                     </div>
                 </div>
@@ -568,7 +618,18 @@ https://templatemo.com/tm-561-purple-buzz
     <script src="/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="/js/custom.js"></script>
+    <script>
+        // Enable hover for dropdowns using JavaScript
+        document.querySelectorAll('.nav-item.dropdown').forEach(function (item) {
+            item.addEventListener('mouseenter', function () {
+                item.querySelector('.dropdown-menu').classList.add('show');
+            });
 
+            item.addEventListener('mouseleave', function () {
+                item.querySelector('.dropdown-menu').classList.remove('show');
+            });
+        });
+    </script>
 </body>
 
 </html>
