@@ -44,50 +44,51 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('about') }}">Société</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">À propos</a>
-                                <a class="dropdown-item text-gray" href="#">L'équipe</a>
-                                <a class="dropdown-item text-gray" href="#">Pourquoi Stack-X</a>
-                                <a class="dropdown-item text-gray" href="#">Partenaires</a>
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
+                                <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
+                                <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
+                                <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('about') }}">Services</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">Consultant</a>
-                                <a class="dropdown-item text-gray" href="#">Design D'expérience utilisateur</a>
-                                <a class="dropdown-item text-gray" href="#">Développement web et app</a>
-                                <a class="dropdown-item text-gray" href="#">Création site web</a>
-                                <a class="dropdown-item text-gray" href="#">Intégration de systèmes</a>
-                                <a class="dropdown-item text-gray" href="#">Données géographiques</a>
-                                <a class="dropdown-item text-gray" href="#">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
+                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
+                                <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
+                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
+                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('work') }}">Technologies</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('pricing') }}">Références</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">Portfolio</a>
+                                <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Processus</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">Nos processus d'intervention</a>
-                                <a class="dropdown-item text-gray" href="#">Nos visions méthodologique</a>
-                                <a class="dropdown-item text-gray" href="#">Nos dispositifs</a>
+                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
+                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>
@@ -97,8 +98,8 @@ https://templatemo.com/tm-561-purple-buzz
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link text-gray" href="#"><small>Blog</small></a>
-                    <a class="nav-link btn-outline-primary rounded-pill" href="#"><small>Rejoindre Stack-X</small></a>
+                    <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                    <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
         </div>

@@ -47,50 +47,51 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('about') }}">Société</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">À propos</a>
-                                <a class="dropdown-item text-gray" href="#">L'équipe</a>
-                                <a class="dropdown-item text-gray" href="#">Pourquoi Stack-X</a>
-                                <a class="dropdown-item text-gray" href="#">Partenaires</a>
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
+                                <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
+                                <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
+                                <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('about') }}">Services</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">Consultant</a>
-                                <a class="dropdown-item text-gray" href="#">Design D'expérience utilisateur</a>
-                                <a class="dropdown-item text-gray" href="#">Développement web et app</a>
-                                <a class="dropdown-item text-gray" href="#">Création site web</a>
-                                <a class="dropdown-item text-gray" href="#">Intégration de systèmes</a>
-                                <a class="dropdown-item text-gray" href="#">Données géographiques</a>
-                                <a class="dropdown-item text-gray" href="#">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
+                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
+                                <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
+                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
+                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('work') }}">Technologies</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('pricing') }}">Références</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">Portfolio</a>
+                                <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Processus</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="#">Nos processus d'intervention</a>
-                                <a class="dropdown-item text-gray" href="#">Nos visions méthodologique</a>
-                                <a class="dropdown-item text-gray" href="#">Nos dispositifs</a>
+                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
+                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>
@@ -100,8 +101,8 @@ https://templatemo.com/tm-561-purple-buzz
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link text-gray" href="#"><small>Blog</small></a>
-                    <a class="nav-link btn-outline-primary rounded-pill" href="#"><small>Rejoindre Stack-X</small></a>
+                    <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                    <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
         </div>
@@ -110,9 +111,8 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Start Banner Hero -->
-    <div class="banner-wrapper bg-light">
+    <div class="banner-wrapper bg-light mt-5" style="margin-top: 70px!important;">
         <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
-
             <!-- Start slider -->
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
@@ -121,54 +121,49 @@ https://templatemo.com/tm-561-purple-buzz
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                    Tranformez vos <strong>Idées</strong> en une
+                                  <br>réalité numérique
+                              </h2>
+                                <p class="banner-body text-muted py-3">
+                                    Nous vous accompagnons dans la réalisation de vos projets numériques.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Des solutions <strong>innovantes</strong> pour votre
+                                    <br>entreprise
+                                </h2>
+                                <p class="banner-body text-muted py-3">
+                                    Vous avez une idée de projet, nous avons les compétences pour la réaliser.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                            </div>
+                        </div>
+
+                    </div>
                     <div class="carousel-item active">
-
-                        <div class="py-5 row d-flex align-items-center">
-                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
-                                    Develop <strong>Strategies</strong> for
-                                  <br>your business
-                              </h1>
-                                <p class="banner-body text-muted py-3 mx-0 px-0">
-                                    Purple Buzz is a corporate HTML template with Bootstrap 5 Beta 1. This CSS template is 100% free to download provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_parent">TemplateMo</a>. Total 6 HTML pages included in this template. Icon fonts by <a rel="nofollow" href="https://boxicons.com/" target="_blank">Boxicons</a>. Photos are from <a rel="nofollow" href="https://unsplash.com/" target="_blank">Unsplash</a> and <a rel="nofollow" href="https://icons8.com/" target="_blank">Icons 8</a>.
-                              </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
                                 <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                    HTML CSS Template with Bootstrap 5 Beta 1
+                                    <strong>Stack-X</strong>
+                                    <br>
                                 </h1>
+                                <h2> est une entreprise de développement logiciel et de conseil en ingénierie informatique.</h2>
                                 <p class="banner-body text-muted py-3">
-                                    You are not allowed to re-distribute this Purple Buzz HTML template as a downloadable ZIP file on any kind of Free CSS collection websites. This is strongly prohibited. Please contact TemplateMo for more information.
+                                    Nous vous accompagnons dans la réalisation de vos projets informatiques.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="carousel-item">
-
-                        <div class="py-5 row d-flex align-items-center">
-                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                    Cupidatat non proident, sunt in culpa qui officia
-                                </h1>
-                                <p class="banner-body text-muted py-3">
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum
-                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-                                </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
                 <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -187,21 +182,20 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- End Banner Hero -->
 
 
-
     <!-- Start Service -->
     <section class="service-wrapper py-3">
         <div class="container-fluid pb-3">
             <div class="row">
-                <h2 class="h2 text-center col-12 py-5 semi-bold-600">Services</h2>
+                <h2 class="h2 text-center col-12 py-5 semi-bold-600">Services et technologies</h2>
                 <div class="service-header col-2 col-lg-3 text-end light-300">
                     <i class='bx bx-gift h3 mt-1'></i>
                 </div>
                 <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                    <h2 class="h3 pb-4 typo-space-line">Make Success for future</h2>
+                    <h2 class="h3 pb-4 typo-space-line">Nous pouvons vous offrir plusieurs services</h2>
                 </div>
             </div>
             <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
-                You are free to use this template for your commercial or business websites. You are not allowed to re-distribute this template ZIP file on any template collection websites. It is too easy to illegally copy and repost this template.
+                Nous vous accompagnons dans la réalisation de vos projets informatiques.
             </p>
         </div>
 
@@ -209,16 +203,16 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-md-12">
                 <ul class="nav d-flex justify-content-center">
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project">All</a>
+                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".graphic">Graphics</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
                     </li>
                     <li class="filter-btn nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".ui">UI/UX</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".branding">Branding</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
                     </li>
                 </ul>
             </div>
@@ -228,111 +222,26 @@ https://templatemo.com/tm-561-purple-buzz
 
     <section class="container overflow-hidden py-5">
         <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
-
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui branding">
+            <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="service card-img" src="/img/services-01.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">UI/UX design</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-02.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Social Media</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project branding">
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/services-03.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Marketing</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
                 </a>
             </div><!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-04.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Graphic</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-05.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Digtal Marketing</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project branding">
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/services-06.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Market Research</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
                 </a>
             </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project branding">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-07.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Business</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic branding">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-08.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
         </div>
     </section>
     <!-- End Service -->
@@ -350,11 +259,13 @@ https://templatemo.com/tm-561-purple-buzz
                     <i class='display-1 bx bxs-box bx-lg'></i>
                 </div>
                 <div class="col-lg-7 col-12 text-light pt-2">
-                    <h3 class="h4 light-300">Great transformations successful</h3>
-                    <p class="light-300">Quis ipsum suspendisse ultrices gravida.</p>
+                    <h3 class="h4 light-300">Nous sommes dans le monde de l'IT</h3>
+                    <p class="light-300">
+                        Confiez-nous vos projets et nous vous aiderons à les réaliser.
+                    </p>
                 </div>
                 <div class="col-lg-3 col-12 pt-4">
-                    <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">View Our Work</a>
+                    <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Voir notre projets</a>
                 </div>
             </div>
         </div>
@@ -365,7 +276,9 @@ https://templatemo.com/tm-561-purple-buzz
     <section class="py-5 mb-5">
         <div class="container">
             <div class="recent-work-header row text-center pb-5">
-                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Recent Works</h2>
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">
+                    Nos projets récents
+                </h2>
             </div>
             <div class="row gy-5 g-lg-5 mb-4">
 
@@ -407,46 +320,6 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                     </a>
                 </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="/img/recent-work-04.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Public Relation</h3>
-                                <p class="card-text">Lorem ipsum dolor sit amet</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="/img/recent-work-05.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Branding</h3>
-                                <p class="card-text">Put enim ad minim veniam</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="/img/recent-work-06.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Creative Design</h3>
-                                <p class="card-text">Mollit anim id est laborum.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
             </div>
         </div>
     </section>
