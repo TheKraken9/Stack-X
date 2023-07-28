@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
     <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="{{ route('index') }}">
                 <i class='bx bx-buildings bx-sm text-dark'></i>
-                <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
+                <span class="text-dark h4">Stack-</span> <span class="text-primary h4">X</span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -168,7 +168,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-md-12">
                 <ul class="nav d-flex justify-content-center">
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project">All</a>
+                        <a class="filter-btn nav-link active btn-outline-primary shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project">All</a>
                     </li>
                     <li class="nav-item mx-lg-4">
                         <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".graphic">Graphics</a>
@@ -429,23 +429,18 @@ https://templatemo.com/tm-561-purple-buzz
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <a class="text-light" target="_blank" href="https://web.facebook.com/profile.php?id=100094537972246">
                                 <i class='bx bxl-facebook-square bx-md'></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/company/stack-x/?fbclid=IwAR29dTa0PTYlHcFLSi7_jHn3Qei2gm94iyImXwuBXBqAoL3IGT1xCxSV8Ac">
                                 <i class='bx bxl-linkedin-square bx-md'></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
                             <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
                                 <i class='bx bxl-whatsapp-square bx-md'></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.flickr.com/">
-                                <i class='bx bxl-flickr-square bx-md'></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
@@ -505,10 +500,10 @@ https://templatemo.com/tm-561-purple-buzz
                     <h2 class="h4 pb-lg-3 text-light light-300">For Client</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" >+261 38 47 297 45</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="stack.xlab@gmail.com">stack.xlab@gmail.com</a>
                         </li>
                     </ul>
                 </div>
@@ -521,12 +516,12 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Purple Buzz Company. All Rights Reserved.
+                            © Copyright 2023 Stack-X. All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>TemplateMo</strong></a>
+                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://web.facebook.com/profile.php?id=100094537972246" target="_blank"><strong>Stack-X</strong></a>
                         </p>
                     </div>
                 </div>

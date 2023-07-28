@@ -8,9 +8,9 @@
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Load Require CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="/css/boxicon.min.css" rel="stylesheet">
+    <link href="/css/boxicon.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
     <link rel="stylesheet" href="/css/templatemo.css">
@@ -92,7 +92,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
 
             <div class="col-lg-3">
-                <h2 class="h2 py-5 typo-space-line">Our Team</h2>
+                <h2 class="text-primary h2 py-5 typo-space-line">Our Team</h2>
                 <p class="text-muted light-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
