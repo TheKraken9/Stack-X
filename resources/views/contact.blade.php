@@ -148,46 +148,32 @@ https://templatemo.com/tm-561-purple-buzz
 
             <!-- Start Contact Form -->
             <div class="col-lg-8 ">
-                <form class="contact-form row" method="post" action="#" role="form">
-
+                <form class="contact-form row" method="post" action="{{url('contact_mail')}}"  role="form">
+                {{ csrf_field() }}
                     <div class="col-lg-6 mb-4">
                         <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name" required>
                             <label for="floatingname light-300">Name</label>
                         </div>
                     </div><!-- End Input Name -->
 
                     <div class="col-lg-6 mb-4">
                         <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingemail" name="inputemail" placeholder="Email">
+                            <input type="email" class="form-control form-control-lg light-300" id="floatingemail" name="inputemail" placeholder="Email" required>
                             <label for="floatingemail light-300">Email</label>
                         </div>
                     </div><!-- End Input Email -->
 
-                    <div class="col-lg-6 mb-4">
-                        <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
-                            <label for="floatingphone light-300">Phone</label>
-                        </div>
-                    </div><!-- End Input Phone -->
-
-                    <div class="col-lg-6 mb-4">
-                        <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingcompany" name="inputcompany" placeholder="Company Name">
-                            <label for="floatingcompany light-300">Company Name</label>
-                        </div>
-                    </div><!-- End Input Company Name -->
-
                     <div class="col-12">
                         <div class="form-floating mb-4">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingsubject" name="inputsubject" placeholder="Subject">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingsubject" name="inputsubject" placeholder="Subject" required>
                             <label for="floatingsubject light-300">Subject</label>
                         </div>
                     </div><!-- End Input Subject -->
 
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <textarea class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea"></textarea>
+                            <textarea class="form-control light-300" rows="8" placeholder="Message" name="mess" id="floatingtextarea" required></textarea>
                             <label for="floatingtextarea light-300">Message</label>
                         </div>
                     </div><!-- End Textarea Message -->
