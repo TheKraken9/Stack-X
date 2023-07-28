@@ -58,7 +58,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Services</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
@@ -74,10 +74,10 @@ https://templatemo.com/tm-561-purple-buzz
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Références</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
@@ -85,7 +85,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Processus</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
@@ -96,7 +96,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
