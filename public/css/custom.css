@@ -60,4 +60,12 @@ https://templatemo.com/tm-561-purple-buzz
     color: #d90429; /* Change the text color to red on hover */
 }
 
+.dropdown-item:active {
+    color: #d90429; /* Change the text color to red on hover */
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 
