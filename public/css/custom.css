@@ -5,6 +5,10 @@ https://templatemo.com/tm-561-purple-buzz
 
 */
 
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .text-gray {
     color: #939393;
 }
