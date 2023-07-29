@@ -34,19 +34,25 @@
                 <h2 class="h4 pb-lg-3 text-light light-300">Services</h2>
                 <ul class="list-unstyled text-light light-300" style="font-size: small;">
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light" href="{{ route('consultant') }}">Consultant</a>
+                        <a class="text-decoration-none text-light"
+                            href="{{ route('consultant') }}#consultant">Consultant</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('dev_web_app') }}">Developpement web et application</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="{{ route('consultant') }}#web">Developpement
+                            web et application</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('sig') }}">Données géographiques</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('consultant') }}#sig">Données
+                            géographiques</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('objet_connecte') }}">Objets connectés</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('consultant') }}#objet">Objets
+                            connectés</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="{{ route('consultant') }}#maintenance">Maintenances et hébergements</a>
                     </li>
                 </ul>
             </div>
@@ -61,10 +67,12 @@
                         <a class="text-decoration-none text-light py-1" href="https://symfony.com/">Symfony</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="https://fr.legacy.reactjs.org/">React.js</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="https://fr.legacy.reactjs.org/">React.js</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="https://dotnet.microsoft.com/en-us/download/dotnet-framework">.Net</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="https://dotnet.microsoft.com/en-us/download/dotnet-framework">.Net</a>
                     </li>
                     <li class="pb-2">
                         <a class="text-decoration-none text-light py-1" href="https://angular.io/">AngularJs</a>
@@ -81,16 +89,20 @@
                 <h2 class="h4 pb-lg-3 text-light light-300">Société</h2>
                 <ul class="list-unstyled text-light light-300" style="font-size: small">
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}">À propos</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}#propos">À
+                            propos</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('equipe') }}">L'équipe</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="{{ route('a_propos') }}#equipe">L'équipe</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}#pourquoi">Pourquoi
+                            Stack-X</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('partenaire') }}">Partenaires</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="{{ route('a_propos') }}#partenaires">Partenaires</a>
                     </li>
                 </ul>
             </div>
@@ -102,7 +114,8 @@
                         <a class="text-decoration-none text-light py-1" href="tel:038-472-9745">+261 38 47 297 45</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="mailto:stack.xlab@gmail.com">stack.xlab@gmail.com</a>
+                        <a class="text-decoration-none text-light py-1"
+                            href="mailto:stack.xlab@gmail.com">stack.xlab@gmail.com</a>
                     </li>
                 </ul>
             </div>
@@ -120,7 +133,8 @@
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <p class="text-lg-end text-center text-light light-300">
-                        <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>ZokyRal</strong></a>
+                        <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/"
+                            target="_blank"><strong>ZokyRal</strong></a>
                     </p>
                 </div>
             </div>

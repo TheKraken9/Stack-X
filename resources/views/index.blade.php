@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
-<!--
+    <!--
 
 TemplateMo 561 Purple Buzz
 
@@ -32,83 +32,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="{{ route('index') }}">
-
-                <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-4">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
-                        </li>
-                        <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
-                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
-                                <div class="dropdown-arrow"></div>
-                                <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
-                                <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
-                                <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
-                                <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Services</a>
-                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
-                                <div class="dropdown-arrow"></div>
-                                <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
-                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
-                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
-                                <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
-                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
-                                <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
-                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
-                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
-                                <!-- Add more dropdown items here -->
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
-                        </li>
-                        <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Références</a>
-                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
-                                <div class="dropdown-arrow"></div>
-                                <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Processus</a>
-                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
-                                <div class="dropdown-arrow"></div>
-                                <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
-                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
-                                <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
-                                <!-- Add more dropdown items here -->
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('contact') }}">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
-                    <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    @include('header')
     <!-- Close Header -->
 
 
@@ -126,14 +50,16 @@ https://templatemo.com/tm-561-purple-buzz
                     <div class="carousel-item">
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                <h2
+                                    class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
                                     Tranformez vos <strong>Idées</strong> en une
-                                  <br>réalité numérique
-                              </h2>
+                                    <br>réalité numérique
+                                </h2>
                                 <p class="banner-body text-muted py-3">
                                     Nous vous accompagnons dans la réalisation de vos projets numériques.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#"
+                                    role="button">Commencer</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +73,8 @@ https://templatemo.com/tm-561-purple-buzz
                                 <p class="banner-body text-muted py-3">
                                     Vous avez une idée de projet, nous avons les compétences pour la réaliser.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#"
+                                    role="button">Commencer</a>
                             </div>
                         </div>
 
@@ -159,20 +86,24 @@ https://templatemo.com/tm-561-purple-buzz
                                     <strong>Stack-X</strong>
                                     <br>
                                 </h1>
-                                <h2> est une entreprise de développement logiciel et de conseil en ingénierie informatique.</h2>
+                                <h2> est une entreprise de développement logiciel et de conseil en ingénierie
+                                    informatique.</h2>
                                 <p class="banner-body text-muted py-3">
                                     Nous vous accompagnons dans la réalisation de vos projets informatiques.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#"
+                                    role="button">Commencer</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button"
+                    data-bs-slide="prev">
                     <i class='bx bx-chevron-left'></i>
                     <span class="visually-hidden">Previous</span>
                 </a>
-                <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button"
+                    data-bs-slide="next">
                     <i class='bx bx-chevron-right'></i>
                     <span class="visually-hidden">Next</span>
                 </a>
@@ -205,16 +136,20 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-md-12">
                 <ul class="nav d-flex justify-content-center">
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
+                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300"
+                            href="#" data-filter=".tout">Tout</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300"
+                            href="#" data-filter=".web">Web</a>
                     </li>
                     <li class="filter-btn nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300"
+                            href="#" data-filter=".mobile">Mobile</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300"
+                            href="#" data-filter=".desktop">Desktop</a>
                     </li>
                 </ul>
             </div>
@@ -341,40 +276,40 @@ https://templatemo.com/tm-561-purple-buzz
     <script src="/js/isotope.pkgd.js"></script>
     <!-- Page Script -->
     <script>
-        $(window).load(function() {
-            // init Isotope
-            var $projects = $('.projects').isotope({
-                itemSelector: '.project',
-                layoutMode: 'fitRows'
-            });
-            $(".filter-btn").click(function() {
-                var data_filter = $(this).attr("data-filter");
-                $projects.isotope({
-                    filter: data_filter
-                });
-                $(".filter-btn").removeClass("active");
-                $(".filter-btn").removeClass("shadow");
-                $(this).addClass("active");
-                $(this).addClass("shadow");
-                return false;
-            });
+    $(window).load(function() {
+        // init Isotope
+        var $projects = $('.projects').isotope({
+            itemSelector: '.project',
+            layoutMode: 'fitRows'
         });
+        $(".filter-btn").click(function() {
+            var data_filter = $(this).attr("data-filter");
+            $projects.isotope({
+                filter: data_filter
+            });
+            $(".filter-btn").removeClass("active");
+            $(".filter-btn").removeClass("shadow");
+            $(this).addClass("active");
+            $(this).addClass("shadow");
+            return false;
+        });
+    });
     </script>
     <!-- Templatemo -->
     <script src="/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="/js/custom.js"></script>
     <script>
-        // Enable hover for dropdowns using JavaScript
-        document.querySelectorAll('.nav-item.dropdown').forEach(function (item) {
-            item.addEventListener('mouseenter', function () {
-                item.querySelector('.dropdown-menu').classList.add('show');
-            });
-
-            item.addEventListener('mouseleave', function () {
-                item.querySelector('.dropdown-menu').classList.remove('show');
-            }, 1000);
+    // Enable hover for dropdowns using JavaScript
+    document.querySelectorAll('.nav-item.dropdown').forEach(function(item) {
+        item.addEventListener('mouseenter', function() {
+            item.querySelector('.dropdown-menu').classList.add('show');
         });
+
+        item.addEventListener('mouseleave', function() {
+            item.querySelector('.dropdown-menu').classList.remove('show');
+        }, 1000);
+    });
     </script>
 </body>
 
