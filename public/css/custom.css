@@ -82,4 +82,26 @@ body {
     transform: scale(0.6); /* Mise à l'échelle de 110% sur le survol */
 }
 
+#index_banner_about {
+    background-image: url('./../img/banner-bg-01.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 60vh;
+    width: 100%;
+}
 
+#index_banner_about .carousel-item {
+    min-height: 60vh;
+}
+
+
+
+#index_banner_about .carousel-inner {
+    height: 82vh;
+}
+
+#index_banner_about .carousel-indicators li,
+#index_banner_about .carousel-indicators.active {
+    background-color: #d90429 !important;
+}

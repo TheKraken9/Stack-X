@@ -43,11 +43,11 @@
         <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                    <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                    <li class="nav-item dropdown mx-1 text-gray">
+                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil text-gray" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
+                        <a class="text-decoration-none px-1 bouton_accueil" href="#">Société</a>
                         <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
@@ -110,221 +110,194 @@
 <!-- Close Header -->
 
 
-<!-- Start Banner Hero -->
-<div class="banner-wrapper bg-light mt-5" style="margin-top: 70px!important;">
-    <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
-        <!-- Start slider -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
-                                Tranformez vos <strong>Idées</strong> en une
-                                <br>réalité numérique
-                            </h2>
-                            <p class="banner-body text-muted py-3">
-                                Nous vous accompagnons dans la réalisation de vos projets numériques.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                Des solutions <strong>innovantes</strong> pour votre
-                                <br>entreprise
-                            </h2>
-                            <p class="banner-body text-muted py-3">
-                                Vous avez une idée de projet, nous avons les compétences pour la réaliser.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item active">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                <strong>Stack-X</strong>
-                                <br>
-                            </h1>
-                            <h2> est une entreprise de développement logiciel et de conseil en ingénierie informatique.</h2>
-                            <p class="banner-body text-muted py-3">
-                                Nous vous accompagnons dans la réalisation de vos projets informatiques.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                <i class='bx bx-chevron-left'></i>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                <i class='bx bx-chevron-right'></i>
-                <span class="visually-hidden">Next</span>
-            </a>
-        </div>
-        <!-- End slider -->
-
-    </div>
-</div>
-<!-- End Banner Hero -->
-
-
 <!-- Start Service -->
-<section class="service-wrapper py-3">
+<section class="service-wrapper py-3" style="margin-top: 150px; margin-bottom: 20px;">
     <div class="container-fluid pb-3">
         <div class="row">
-            <h2 class="h2 text-center col-12 py-5 semi-bold-600">Services et technologies</h2>
-            <div class="service-header col-2 col-lg-3 text-end light-300">
-                <i class='bx bx-gift h3 mt-1'></i>
-            </div>
-            <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                <h2 class="h3 pb-4 typo-space-line">Nous pouvons vous offrir plusieurs services</h2>
-            </div>
+            <h1 class="h1 text-center col-12 py-5 semi-bold-600">Qui sommes-nous ?</h1>
         </div>
-        <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
-            Nous vous accompagnons dans la réalisation de vos projets informatiques.
+        <p class="service-footer col-12 offset-2 col-lg-9 offset-lg-2 text-start pb-3 text-muted px-2">
+            <strong style="color: #d90429; font-size: x-large">Stack-X</strong> est née dont le but est d'apporter des solutions innovantes et adaptées aux besoins de nos clients. Elle est fondée par des convictions fortes et des valeurs humaines.
+        </p>
+        <p class="service-footer col-12 offset-2 col-lg-9 offset-lg-2 text-start pb-3 text-muted px-2">
+            <strong style="color: #d90429; font-size: x-large">Stack-X</strong> est une entreprise de services numériques (ESN) qui accompagne les entreprises dans leur transformation digitale. Nous sommes spécialisés dans <span class="fw-bold">le développement d’applications web et mobiles, la création de sites web, l’intégration de systèmes, la conception d’objets connectés, la maintenance et l’hébergement de solutions informatiques</span>.
+            Stack-X par des ingénieurs passionnés par les nouvelles technologies et l’innovation. Nous sommes basés à Madagascar, et nous intervenons dans les quatres coins du monde.
         </p>
     </div>
-
-    <div class="service-tag py-5 bg-secondary">
-        <div class="col-md-12">
-            <ul class="nav d-flex justify-content-center">
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
-                </li>
-                <li class="filter-btn nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
 </section>
 
-<section class="container overflow-hidden py-5">
-    <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="service card-img" src="/img/services-01.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
+<!-- Start Progress -->
+<section class="bg-light py-5">
+    <div class="container my-4">
 
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="/img/services-03.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
+        <h1 class="creative-heading h2 pb-3 h1 col-12 py-5 semi-bold-600">
+            Toujours vers l'avant
+        </h1>
 
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="/img/services-06.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
-    </div>
-</section>
-<!-- End Service -->
-
-
-
-
-
-
-<!-- Start View Work -->
-<section class="bg-secondary">
-    <div class="container py-5">
-        <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-2 col-12 text-light align-items-center">
-                <i class='display-1 bx bxs-box bx-lg'></i>
-            </div>
-            <div class="col-lg-7 col-12 text-light pt-2">
-                <h3 class="h4 light-300">Nous sommes dans le monde de l'IT</h3>
-                <p class="light-300">
-                    Confiez-nous vos projets et nous vous aiderons à les réaliser.
+        <div class="creative-content row py-3">
+            <div class="col-md-5">
+                <p class="text-muted col-lg-8 light-300">
+                    Stack-X ne cesse de se développer et de s'améliorer. Nous sommes toujours à la recherche de nouvelles technologies et de nouvelles méthodes pour améliorer nos services.
                 </p>
             </div>
-            <div class="col-lg-3 col-12 pt-4">
-                <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Voir notre projets</a>
+            <div class="creative-progress col-md-7">
+
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-6">
+                        <h4 class="h5">Developpement web</h4>
+                    </div>
+                    <div class="col-6 text-right">66%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-6">
+                        <h4 class="h5">Developpement logiciel</h4>
+                    </div>
+                    <div class="col-6 text-right">66%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-6">
+                        <h4 class="h5">Developpement Mobile</h4>
+                    </div>
+                    <div class="col-6 text-right">50%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-6">
+                        <h4 class="h5">Système Géographiques</h4>
+                    </div>
+                    <div class="col-6 text-right">33%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-6">
+                        <h4 class="h5">Système et Réseaux / Cloud</h4>
+                    </div>
+                    <div class="col-6 text-right">35%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
-<!-- End View Work -->
+<!-- End Progress -->
 
-<!-- Start Recent Work -->
-<section class="py-5 mb-5">
-    <div class="container">
-        <div class="recent-work-header row text-center pb-5">
-            <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">
-                Nos projets récents
-            </h2>
+<!-- Start Team Member -->
+<section class="container py-5" style="margin-bottom: 50px">
+    <div class="pb-3 d-lg-flex align-items-center gx-5">
+
+        <div class="col-lg-3">
+            <h2 class="h2 py-5 typo-space-line h1 col-12 py-5 semi-bold-600">Notre équipe</h2>
+            <p class="text-muted light-300">
+                Nous sommes composé de trois personnes passionnés par les nouvelles technologies et l’innovation.
+            </p>
         </div>
-        <div class="row gy-5 g-lg-5 mb-4">
 
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Social Media</h3>
-                            <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Web Marketing</h3>
-                            <p class="card-text">Psum officia anim id est laborum.</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">R & D</h3>
-                            <p class="card-text">Sum dolor sit consencutur</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
+        <div class="col-lg-9 row">
+            <div class="team-member col-md-4">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-01.jpg" alt="Card image">
+                <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                    <li class="text-dark">ANDRIANAMBININA Fenitra T.</li>
+                    <li>Chef de la direction</li>
+                </ul>
+            </div>
+            <div class="team-member col-md-4">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-02.jpg" alt="Card image">
+                <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                    <li class="text-dark">RAJAONARISINA A. Rado Ny Aina</li>
+                    <li>Directeur des nouvelles technologies</li>
+                </ul>
+            </div>
+            <div class="team-member col-md-4">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-03.jpg" alt="Card image">
+                <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                    <li class="text-dark">RAJAOHARISAONA Mamison</li>
+                    <li>Directeur des développements et Etudes</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
-<!-- End Recent Work -->
+<!-- End Team Member -->
 
+<!-- Start Feature Work -->
+<section class="bg-light py-5">
+    <div class="feature-work container my-4">
+        <div class="row d-flex d-flex align-items-center">
+            <div class="col-lg-6 align-left">
+                <div class="row">
+                    <a class="col offset-1" data-type="image" data-fslightbox="gallery" href="">
+                        <img class="img-fluid" src="/img/apple-icon.png" style="max-width: 400px; max-height: 400px">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <h3 class="feature-work-title h4 text-muted light-300">Stack-X créée en 2023</h3>
+                <h1 class="feature-work-heading h2 py-3 semi-bold-600">Transformation digitale</h1>
+                <p class="feature-work-body text-muted light-300">
+                    L'entreprise combine les dernières technologies avec une approche créative et une expertise métier pour aider les entreprises à se transformer et à s'améliorer.
+                    <br><strong>Stack-X</strong> vise à être un partenaire de confiance pour les entreprises qui souhaitent innover et se développer grâce à la technologie.
+                    <br>Notre Entreprise garantie la qualité de ses services et la satisfaction de ses clients.
+                </p>
+                <p class="feature-work-footer text-muted light-300">
+                    Stack-X est en pleine croissance et nous sommes toujours à la recherche de nouveaux talents pour rejoindre notre équipe.
+                    Nous sommes spécialisés dans <strong>le développement d’applications web et mobiles, <strong>la création de sites web</strong>, <strong>l’intégration de systèmes</strong>, <strong>la conception d’objets connectés</strong>, <strong>la maintenance et l’hébergement de solutions informatiques</strong>.
+                </p>
+                <a class="btn btn-outline-primary rounded-pill float-end" href="{{ route('rejoindre_stack') }}">Rejoindre Stack-X</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Feature Work -->
+
+<!-- Start Our Partner -->
+<section class="py-3" style="margin-bottom: 100px">
+    <div class="container py-5">
+        <h2 class="h2 text-dark text-center py-5">Notre partenaires</h2>
+        <p class="feature-work-body text-muted light-300">
+            L'entreprise combine les dernières technologies avec une approche créative et une expertise métier pour aider les entreprises à se transformer et à s'améliorer.
+        </p>
+        <div class="row text-center">
+            <div class="col-md-3 mb-3">
+                <div class="card partner-wap py-5">
+                    <a href="#"><i class='display-1 text-white bx bxs-buildings'></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card partner-wap py-5">
+                    <a href="#"><i class='display-1 bx text-white bxs-check-shield bx-lg'></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card partner-wap py-5">
+                    <a href="#"><i class='display-1 text-white bx bxs-bolt-circle'></i></a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card partner-wap py-5">
+                    <a href="#"><i class='display-1 text-white bx bxs-spa'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Our Partner-->
 
 
 <!-- Start Footer -->
