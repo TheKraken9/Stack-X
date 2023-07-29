@@ -255,7 +255,6 @@ https://templatemo.com/tm-561-purple-buzz
     @include('footer')
     <!-- End Footer -->
 
-
     <!-- Bootstrap -->
     <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Templatemo -->
