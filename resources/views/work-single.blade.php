@@ -16,9 +16,8 @@
     <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
-
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -27,41 +26,80 @@ https://templatemo.com/tm-561-purple-buzz
 </head>
 
 <body>
-        <!-- Header -->
-        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="{{ route('index') }}">
-                <i class='bx bx-buildings bx-sm text-dark'></i>
-                <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
+
+                <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-4">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
+                                <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
+                                <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
+                                <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
+                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
+                                <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
+                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
+                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                                <!-- Add more dropdown items here -->
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
+                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
+                                <!-- Add more dropdown items here -->
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                    <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                    <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
         </div>
@@ -106,7 +144,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="row justify-content-center pb-4">
             <div class="col-lg-8">
                 <div id="templatemo-slide-link-target" class="card mb-3">
-                    <img class="img-fluid border rounded" src="./assets/img/work-slide-04.jpg" alt="Card image cap">
+                    <img class="img-fluid border rounded" src="/img/work-slide-04.jpg" alt="Card image cap">
                 </div>
                 <div class="worksingle-slide-footer row">
 
@@ -127,28 +165,28 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-06.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-06-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-06.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-06-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-05.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-05-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-05.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-05-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-04.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-04-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-04.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-04-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-03.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-03-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-03.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-03-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                 </div>
@@ -159,28 +197,28 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-03.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-03-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-03.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-03-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-02.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-02-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-02.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-02-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-06.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-06-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-06.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-06-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                 </div>
@@ -191,28 +229,28 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-03.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-03-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-03.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-03-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-02.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-02-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-02.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-02-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-01.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-01-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-01.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-01-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a class="templatemo-slide-link" href="./assets/img/work-slide-06.jpg">
-                                            <img class="img-fluid border rounded" src="./assets/img/work-slide-06-small.jpg" alt="Product Image">
+                                        <a class="templatemo-slide-link" href="/img/work-slide-06.jpg">
+                                            <img class="img-fluid border rounded" src="/img/work-slide-06-small.jpg" alt="Product Image">
                                         </a>
                                     </div>
                                 </div>
@@ -300,7 +338,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="worksingle-comment-body col-md-8 m-auto">
                 <div class="d-flex">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-05.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-05.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -327,7 +365,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-lg-8 m-auto">
                 <div class="d-flex">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-01.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-01.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -354,7 +392,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-lg-8 m-auto">
                 <div class="d-flex ml-4">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-05.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-05.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -381,7 +419,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="col-lg-8 m-auto">
                 <div class="d-flex ml-5">
                     <div>
-                        <img class="rounded-circle" src="./assets/img/team-01.jpg" style="width: 50px;">
+                        <img class="rounded-circle" src="/img/team-01.jpg" style="width: 50px;">
                     </div>
                     <div class="comment-body">
                         <div class="comment-header d-flex justify-content-between ms-3">
@@ -449,7 +487,7 @@ https://templatemo.com/tm-561-purple-buzz
 
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-01.jpg" alt="Card image cap">
+                                <img class="related-img card-img-top" src="/img/related-post-01.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -467,7 +505,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-02.jpg" alt="Card image cap">
+                                <img class="related-img card-img-top" src="/img/related-post-02.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">App Development</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -485,7 +523,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="./assets/img/related-post-03.jpg" alt="Card image cap">
+                                <img class="related-img card-img-top" src="/img/related-post-03.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -634,9 +672,9 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Load jQuery require for Page Script -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Page Script -->
     <script>
         $(window).load(function() {
@@ -650,9 +688,9 @@ https://templatemo.com/tm-561-purple-buzz
         });
     </script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 

@@ -10,14 +10,14 @@
     <!-- Load Require CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="/css/boxicon.css" rel="stylesheet">
+    <link href="/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Load Tempalte CSS -->
     <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
 <!--
-    
+
 TemplateMo 561 Purple Buzz
 
 https://templatemo.com/tm-561-purple-buzz
@@ -26,41 +26,80 @@ https://templatemo.com/tm-561-purple-buzz
 </head>
 
 <body>
-        <!-- Header -->
-        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="{{ route('index') }}">
-                <i class='bx bx-buildings bx-sm text-dark'></i>
-                <span class="text-dark h4">Purple</span> <span class="text-primary h4">Buzz</span>
+
+                <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-4">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('index') }}">Home</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('about') }}">About</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
+                                <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
+                                <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
+                                <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('work') }}">Work</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
+                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
+                                <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
+                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
+                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                                <!-- Add more dropdown items here -->
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('pricing') }}">Pricing</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="{{ route('contact') }}">Contact</a>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mx-1">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
+                            <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                                <div class="dropdown-arrow"></div>
+                                <!-- Dropdown menu items -->
+                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
+                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
+                                <!-- Add more dropdown items here -->
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                    <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                    <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
         </div>
@@ -79,7 +118,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./assets/img/banner-img-02.svg">
+                    <img src="/img/banner-img-02.svg">
                 </div>
             </div>
         </div>
@@ -92,7 +131,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
 
             <div class="col-lg-3">
-                <h2 class="text-primary h2 py-5 typo-space-line">Our Team</h2>
+                <h2 class="h2 py-5 typo-space-line">Our Team</h2>
                 <p class="text-muted light-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -101,21 +140,21 @@ https://templatemo.com/tm-561-purple-buzz
 
             <div class="col-lg-9 row">
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-01.jpg" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                         <li>John Doe</li>
                         <li>Business Development</li>
                     </ul>
                 </div>
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-02.jpg" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                         <li>Jane Doe</li>
                         <li>Media Development</li>
                     </ul>
                 </div>
                 <div class="team-member col-md-4">
-                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-03.jpg" alt="Card image">
                     <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                         <li>Sam</li>
                         <li>Developer</li>
@@ -212,7 +251,7 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="container my-4">
             <div class="row">
                 <div class="banner-img col-lg-5">
-                    <img src="./assets/img/work.svg" class="rounded img-fluid" alt="">
+                    <img src="/img/work.svg" class="rounded img-fluid" alt="">
                 </div>
                 <div class="banner-content col-lg-7 align-self-end">
                     <h2 class="h2 pb-3">Why you choose us?</h2>
@@ -273,7 +312,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="col-lg-6 mx-auto my-4 p-3">
                     <form action="#" method="get"><h1 class="h2 text-center">Stay up to date with us</h1>
                     <div class="input-group py-3">
-                    
+
                         <input name="email" type="text" class="form-control form-control-lg rounded-pill rounded-end" id="email" placeholder="Your Email" aria-label="Your Email">
                         <button class="btn btn-secondary text-white btn-lg rounded-pill rounded-start px-lg-4" type="submit">Subsribe</button>
                     </div>
@@ -411,11 +450,11 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
 </body>
 
