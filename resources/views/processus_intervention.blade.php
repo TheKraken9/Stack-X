@@ -115,9 +115,10 @@
                 Réduire les risques : Appliquer des pratiques de gestion de projet pour minimiser les risques et les
                 problèmes potentiels tout au long du processus.
             </p>
+            <br>
+            <br>
+            <br>
         </div>
-
-
     </section>
 
 
