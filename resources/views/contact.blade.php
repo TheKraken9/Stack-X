@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
-<!--
+    <!--
 
 TemplateMo 561 Purple Buzz
 
@@ -33,15 +33,20 @@ https://templatemo.com/tm-561-purple-buzz
 
                 <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
             </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between"
+                id="navbar-toggler-success">
                 <div class="flex-fill mx-xl-4">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil"
+                                href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
                             <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
@@ -60,18 +65,24 @@ https://templatemo.com/tm-561-purple-buzz
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
                                 <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
-                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
-                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
+                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience
+                                    utilisateur</a>
+                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web
+                                    et application</a>
                                 <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
-                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration
+                                    de systèmes</a>
                                 <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
-                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
-                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets
+                                    connectés</a>
+                                <a class="dropdown-item text-gray"
+                                    href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray"
+                                href="{{ route('technologie') }}">Technologies</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
                             <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
@@ -86,20 +97,24 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
-                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
+                                <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos
+                                    processus d'intervention</a>
+                                <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos
+                                    visions méthodologique</a>
                                 <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
+                            <a class="text-decoration-none px-1 bouton_accueil  text-gray"
+                                href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
                     <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
-                    <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
+                    <a class="nav-link btn-outline-primary rounded-pill"
+                        href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
         </div>
@@ -115,7 +130,8 @@ https://templatemo.com/tm-561-purple-buzz
                     <h1 class="h2 pb-3 text-primary">Contact</h1>
                     <h3 class="h4 regular-400">Elit, sed do eiusmod tempor</h3>
                     <p class="light-300">
-                        Vector illustration is from <a rel="nofollow" href="https://storyset.com/" target="_blank">StorySet</a>.
+                        Vector illustration is from <a rel="nofollow" href="https://storyset.com/"
+                            target="_blank">StorySet</a>.
                         Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                     </p>
                 </div>
@@ -159,7 +175,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="contact row mb-4">
                     <div class="contact-icon col-lg-3 col-3">
                         <div class="border py-3 mb-2 text-center border rounded text-secondary">
-                            <i class='bx bx-laptop display-6' ></i>
+                            <i class='bx bx-laptop display-6'></i>
                         </div>
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
@@ -187,52 +203,44 @@ https://templatemo.com/tm-561-purple-buzz
 
             <!-- Start Contact Form -->
             <div class="col-lg-8 ">
-                <form class="contact-form row" method="post" action="#" role="form">
-
+                <form class="contact-form row" method="post" action="{{url('contact_mail')}}" role="form">
+                    {{ csrf_field() }}
                     <div class="col-lg-6 mb-4">
                         <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingname"
+                                name="inputname" placeholder="Name" required>
                             <label for="floatingname light-300">Name</label>
                         </div>
                     </div><!-- End Input Name -->
 
                     <div class="col-lg-6 mb-4">
                         <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingemail" name="inputemail" placeholder="Email">
+                            <input type="email" class="form-control form-control-lg light-300" id="floatingemail"
+                                name="inputemail" placeholder="Email" required>
                             <label for="floatingemail light-300">Email</label>
                         </div>
                     </div><!-- End Input Email -->
 
-                    <div class="col-lg-6 mb-4">
-                        <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
-                            <label for="floatingphone light-300">Phone</label>
-                        </div>
-                    </div><!-- End Input Phone -->
-
-                    <div class="col-lg-6 mb-4">
-                        <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingcompany" name="inputcompany" placeholder="Company Name">
-                            <label for="floatingcompany light-300">Company Name</label>
-                        </div>
-                    </div><!-- End Input Company Name -->
-
                     <div class="col-12">
                         <div class="form-floating mb-4">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingsubject" name="inputsubject" placeholder="Subject">
+                            <input type="text" class="form-control form-control-lg light-300" id="floatingsubject"
+                                name="inputsubject" placeholder="Subject" required>
                             <label for="floatingsubject light-300">Subject</label>
                         </div>
                     </div><!-- End Input Subject -->
 
                     <div class="col-12">
                         <div class="form-floating mb-3">
-                            <textarea class="form-control light-300" rows="8" placeholder="Message" id="floatingtextarea"></textarea>
+                            <textarea class="form-control light-300" rows="8" placeholder="Message" name="mess"
+                                id="floatingtextarea" required></textarea>
                             <label for="floatingtextarea light-300">Message</label>
                         </div>
                     </div><!-- End Textarea Message -->
 
                     <div class="col-md-12 col-12 m-auto text-end">
-                        <button type="submit" class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Send Message</button>
+                        <button type="submit"
+                            class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Send
+                            Message</button>
                     </div>
 
                 </form>
@@ -282,7 +290,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </li>
                         <li class="list-inline-item m-0">
                             <a class="text-light" target="_blank" href="https://www.medium.com/">
-                                <i class='bx bxl-medium-square bx-md' ></i>
+                                <i class='bx bxl-medium-square bx-md'></i>
                             </a>
                         </li>
                     </ul>
@@ -292,19 +300,24 @@ https://templatemo.com/tm-561-purple-buzz
                     <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
                         <ul class="list-unstyled text-light light-300">
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.blade.php">Home</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light" href="index.blade.php">Home</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.blade.php">About Us</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="about.blade.php">About Us</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.blade.php">Work</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="work.blade.php">Work</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.blade.php">Price</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a
+                                    class="text-decoration-none text-light py-1" href="pricing.blade.php">Price</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.html">Contact</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                    class="text-decoration-none text-light py-1" href="contact.html">Contact</a>
                             </li>
                         </ul>
                 </div>
@@ -313,22 +326,28 @@ https://templatemo.com/tm-561-purple-buzz
                     <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Branding</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Branding</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Business</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Business</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Marketing</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Marketing</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Social Media</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Digital Solution</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Digital Solution</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Graphic</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a
+                                class="text-decoration-none text-light py-1" href="#">Graphic</a>
                         </li>
                     </ul>
                 </div>
@@ -337,10 +356,12 @@ https://templatemo.com/tm-561-purple-buzz
                     <h2 class="h4 pb-lg-3 text-light light-300">For Client</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel:010-020-0340">010-020-0340</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto:info@company.com">info@company.com</a>
                         </li>
                     </ul>
                 </div>
@@ -358,7 +379,8 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>TemplateMo</strong></a>
+                            Designed by <a rel="sponsored" class="text-decoration-none text-light"
+                                href="https://templatemo.com/" target="_blank"><strong>TemplateMo</strong></a>
                         </p>
                     </div>
                 </div>
