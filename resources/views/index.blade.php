@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
     <!-- Load Require CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
@@ -226,22 +226,107 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
             <!-- Start Recent Work -->
             <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="service card-img" src="/img/services-01.jpg" alt="Card image">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="/img/tech-01.png" alt="Card image">
                 </a>
-            </div><!-- End Recent Work -->
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="/img/tech-02.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="/img/tech-03.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
 
             <!-- Start Recent Work -->
             <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-03.jpg" alt="Card image">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-01.png" alt="Card image">
                 </a>
-            </div><!-- End Recent Work -->
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-02.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-03.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-04.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-05.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-06.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+
+
+
 
             <!-- Start Recent Work -->
             <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
-                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="/img/services-06.jpg" alt="Card image">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-01.png" alt="Card image">
+                </a>
+            </div><!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-02.png" alt="Card image">
+                </a>
+            </div><!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-03.png" alt="Card image">
+                </a>
+            </div><!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-04.png" alt="Card image">
+                </a>
+            </div><!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-05.png" alt="Card image">
+                </a>
+            </div><!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-06.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
         </div>
@@ -283,36 +368,35 @@ https://templatemo.com/tm-561-purple-buzz
                 </h2>
             </div>
             <div class="row gy-5 g-lg-5 mb-4">
-
                 <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                <div class="col-md-3 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
                         <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Social Media</h3>
-                                <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
+                                <h3 class="card-title light-300">Hope Services</h3>
+                                <p class="card-text">Site e-commerce et vitrine</p>
                             </div>
                         </div>
                     </a>
                 </div><!-- End Recent Work -->
 
                 <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                <div class="col-md-3 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
                         <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Web Marketing</h3>
-                                <p class="card-text">Psum officia anim id est laborum.</p>
+                                <h3 class="card-title light-300">E.J.A.</h3>
+                                <p class="card-text">Site vitrine</p>
                             </div>
                         </div>
                     </a>
                 </div><!-- End Recent Work -->
 
                 <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                <div class="col-md-3 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
                         <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">

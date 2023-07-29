@@ -72,6 +72,14 @@ body {
     display: block;
 }
 
+/* Style des images à l'état normal */
+.service-work img {
+    transition: transform 0.3s ease; /* Ajoute une transition fluide pour le scaling */
+}
 
+/* Effet d'hover */
+.service-work:hover img {
+    transform: scale(0.6); /* Mise à l'échelle de 110% sur le survol */
+}
 
 
