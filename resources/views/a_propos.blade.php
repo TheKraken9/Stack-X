@@ -127,7 +127,7 @@
 </section>
 
 <!-- Start Progress -->
-<section class="bg-light py-5">
+<section class="bg-light py-5" id="qui">
     <div class="container my-4">
 
         <h1 class="creative-heading h2 pb-3 h1 col-12 py-5 semi-bold-600">
@@ -199,7 +199,7 @@
 <!-- End Progress -->
 
 <!-- Start Team Member -->
-<section class="container py-5" style="margin-bottom: 50px">
+<section class="container py-5" style="margin-bottom: 50px" id="equipe">
     <div class="pb-3 d-lg-flex align-items-center gx-5">
 
         <div class="col-lg-3">
@@ -237,7 +237,7 @@
 <!-- End Team Member -->
 
 <!-- Start Feature Work -->
-<section class="bg-light py-5">
+<section class="bg-light py-5" id="naissance">
     <div class="feature-work container my-4">
         <div class="row d-flex d-flex align-items-center">
             <div class="col-lg-6 align-left">
@@ -267,11 +267,11 @@
 <!-- End Feature Work -->
 
 <!-- Start Our Partner -->
-<section class="py-3" style="margin-bottom: 100px">
+<section class="py-3" style="margin-bottom: 100px" id="partenaire">
     <div class="container py-5">
         <h2 class="h2 text-dark text-center py-5">Notre partenaires</h2>
-        <p class="feature-work-body text-muted light-300">
-            L'entreprise combine les dernières technologies avec une approche créative et une expertise métier pour aider les entreprises à se transformer et à s'améliorer.
+        <p class="feature-work-body text-muted text-center light-300">
+            Nous travaillons avec des partenaires de confiance pour fournir des solutions de bout en bout à nos clients.
         </p>
         <div class="row text-center">
             <div class="col-md-3 mb-3">
