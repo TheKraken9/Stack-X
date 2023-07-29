@@ -44,7 +44,7 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-4">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil"
+                            <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil"
                                 href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
@@ -106,7 +106,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="text-decoration-none px-1 bouton_accueil  text-gray"
+                            <a class="text-decoration-none px-1 bouton_accueil  "
                                 href="{{ route('contact') }}">Contact</a>
                         </li>
                     </ul>
@@ -127,12 +127,12 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="container py-4">
             <div class="row align-items-center justify-content-between">
                 <div class="contact-header col-lg-4">
-                    <h1 class="h2 pb-3 text-primary">Contact</h1>
-                    <h3 class="h4 regular-400">Elit, sed do eiusmod tempor</h3>
+                    <h1 class="h2 pb-3 text-primary">Contactez-nous</h1>
+                    <h3 class="h4 regular-400">Nous vous prions d'agréer nos salutations.</h3>
                     <p class="light-300">
-                        Vector illustration is from <a rel="nofollow" href="https://storyset.com/"
-                            target="_blank">StorySet</a>.
-                        Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        Si vous pouviez prendre un moment pour discuter, nous en serions très
+                        reconnaissants. Veuillez nous faire savoir vos disponibilités pour un éventuel appel ou une
+                        réunion.
                     </p>
                 </div>
                 <div class="contact-img col-lg-5 align-items-end col-md-4">
@@ -147,13 +147,13 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Start Contact -->
     <section class="container py-5">
 
-        <h1 class="col-12 col-xl-8 h2 text-left text-primary pt-3">Create success campaign with us!</h1>
-        <h2 class="col-12 col-xl-8 h4 text-left regular-400">Elit, sed do eiusmod tempor </h2>
+        <h1 class="col-12 col-xl-8 h2 text-left text-primary pt-3">Envoyez-nous un mail</h1>
+        <h2 class="col-12 col-xl-8 h4 text-left regular-400">Prennez le temps de nous contacter.</h2>
         <p class="col-12 col-xl-8 text-left text-muted pb-5 light-300">
-            Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-            gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate.
+            Nous accordons une grande valeur à votre expertise et nous vous serions extrêmement reconnaissants
+            si vous pouviez consacrer un peu de votre temps pour discuter de cette question plus en détail.
+            Merci de nous faire savoir vos disponibilités pour un bref appel ou une réunion. Nous sommes ouverts
+            à toute date et heure qui vous conviennent.
         </p>
 
         <div class="row pb-4">
@@ -161,14 +161,26 @@ https://templatemo.com/tm-561-purple-buzz
 
                 <div class="contact row mb-4">
                     <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <i class='bx bx-envelope display-6'></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 mb-0">Stack-X</li>
+                        <li class="text-muted">stack.xlab@gmail.com</li>
+                        <li class="text-muted">+261 38 47 297 45</li>
+                    </ul>
+                </div>
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
                         <div class="py-3 mb-2 text-center border rounded text-secondary">
                             <i class='display-6 bx bx-news'></i>
                         </div>
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
-                        <li class="h5 mb-0">Media Contact</li>
-                        <li class="text-muted">Mr. John Doe</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="h5 mb-0">Directeur des resources<br> humaine</li>
+                        <li class="text-muted">Mme Emilie RASOANINDRIANA</li>
+                        <li class="text-muted">+261 34 66 829 73</li>
                     </ul>
                 </div>
 
@@ -179,24 +191,12 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
-                        <li class="h5 mb-0">Technical Contact</li>
-                        <li class="text-muted">Mr. John Stiles</li>
-                        <li class="text-muted">010-020-0340</li>
+                        <li class="h5 mb-0">Directeur technique</li>
+                        <li class="text-muted">Mr RAJAONARISINA <br>Andriamampiadamanjaka Rado Ny Aina</li>
+                        <li class="text-muted">+261 38 47 297 45</li>
                     </ul>
                 </div>
 
-                <div class="contact row mb-4">
-                    <div class="contact-icon col-lg-3 col-3">
-                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
-                            <i class='bx bx-money display-6'></i>
-                        </div>
-                    </div>
-                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
-                        <li class="h5 mb-0">Billing Contact</li>
-                        <li class="text-muted">Mr. Richard Miles</li>
-                        <li class="text-muted">010-020-0340</li>
-                    </ul>
-                </div>
 
             </div>
 
@@ -209,7 +209,7 @@ https://templatemo.com/tm-561-purple-buzz
                         <div class="form-floating">
                             <input type="text" class="form-control form-control-lg light-300" id="floatingname"
                                 name="inputname" placeholder="Name" required>
-                            <label for="floatingname light-300">Name</label>
+                            <label for="floatingname light-300">Nom * </label>
                         </div>
                     </div><!-- End Input Name -->
 
@@ -217,7 +217,7 @@ https://templatemo.com/tm-561-purple-buzz
                         <div class="form-floating">
                             <input type="email" class="form-control form-control-lg light-300" id="floatingemail"
                                 name="inputemail" placeholder="Email" required>
-                            <label for="floatingemail light-300">Email</label>
+                            <label for="floatingemail light-300">Email *</label>
                         </div>
                     </div><!-- End Input Email -->
 
@@ -225,7 +225,7 @@ https://templatemo.com/tm-561-purple-buzz
                         <div class="form-floating mb-4">
                             <input type="text" class="form-control form-control-lg light-300" id="floatingsubject"
                                 name="inputsubject" placeholder="Subject" required>
-                            <label for="floatingsubject light-300">Subject</label>
+                            <label for="floatingsubject light-300">Sujet *</label>
                         </div>
                     </div><!-- End Input Subject -->
 
@@ -233,14 +233,15 @@ https://templatemo.com/tm-561-purple-buzz
                         <div class="form-floating mb-3">
                             <textarea class="form-control light-300" rows="8" placeholder="Message" name="mess"
                                 id="floatingtextarea" required></textarea>
-                            <label for="floatingtextarea light-300">Message</label>
+                            <label for="floatingtextarea light-300">Messages *</label>
                         </div>
                     </div><!-- End Textarea Message -->
 
                     <div class="col-md-12 col-12 m-auto text-end">
                         <button type="submit"
-                            class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Send
-                            Message</button>
+                            class="btn btn-secondary rounded-pill px-md-5 px-4 py-2 radius-0 text-light light-300">Envoyer
+                            le
+                            message</button>
                     </div>
 
                 </form>
