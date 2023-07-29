@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/icon.png">
     <!-- Load Require CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
@@ -49,29 +49,29 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('a_propos') }}">Société</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
-                                <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
-                                <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
-                                <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#qui">À propos</a>
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#equipe">L'équipe</a>
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#naissance">Pourquoi Stack-X</a>
+                                <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#partenaire">Partenaires</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown mx-1">
-                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Services</a>
+                            <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('consultant') }}">Services</a>
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
                                 <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
-                                <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
-                                <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
-                                <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
-                                <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
-                                <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
-                                <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
-                                <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#ui_ux">Design D'expérience utilisateur</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#dev_web_app">Développement web et application</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#app_mobile">Création application mobile</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#integration">Intégration de systèmes</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#sig">Données géographiques</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#objet_connecte">Objets connectés</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#maintenance">Maintenances et hébergements</a>
                                 <!-- Add more dropdown items here -->
                             </div>
                         </li>

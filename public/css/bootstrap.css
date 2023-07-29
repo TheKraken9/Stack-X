@@ -4344,8 +4344,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #f6f9fe;
-    background-color: #4232c2;
-    border-color: #4232c2;
+    background-color: #d90429;
+    border-color: #d90429;
 }
 
 
@@ -4353,8 +4353,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
     color: #f6f9fe;
-    background-color: #382ba5;
-    border-color: #35289b;
+    background-color: #d90429;
+    border-color: #d90429;
 }
 
 

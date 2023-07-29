@@ -108,222 +108,356 @@
     </div>
 </nav>
 <!-- Close Header -->
-
-
-<!-- Start Banner Hero -->
-<div class="banner-wrapper bg-light mt-5" style="margin-top: 70px!important;">
-    <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
-        <!-- Start slider -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
-                                Tranformez vos <strong>Idées</strong> en une
-                                <br>réalité numérique
-                            </h2>
-                            <p class="banner-body text-muted py-3">
-                                Nous vous accompagnons dans la réalisation de vos projets numériques.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                Des solutions <strong>innovantes</strong> pour votre
-                                <br>entreprise
-                            </h2>
-                            <p class="banner-body text-muted py-3">
-                                Vous avez une idée de projet, nous avons les compétences pour la réaliser.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item active">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                <strong>Stack-X</strong>
-                                <br>
-                            </h1>
-                            <h2> est une entreprise de développement logiciel et de conseil en ingénierie informatique.</h2>
-                            <p class="banner-body text-muted py-3">
-                                Nous vous accompagnons dans la réalisation de vos projets informatiques.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                <i class='bx bx-chevron-left'></i>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                <i class='bx bx-chevron-right'></i>
-                <span class="visually-hidden">Next</span>
-            </a>
-        </div>
-        <!-- End slider -->
-
-    </div>
-</div>
-<!-- End Banner Hero -->
-
-
-<!-- Start Service -->
-<section class="service-wrapper py-3">
-    <div class="container-fluid pb-3">
-        <div class="row">
-            <h2 class="h2 text-center col-12 py-5 semi-bold-600">Services et technologies</h2>
-            <div class="service-header col-2 col-lg-3 text-end light-300">
-                <i class='bx bx-gift h3 mt-1'></i>
-            </div>
-            <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                <h2 class="h3 pb-4 typo-space-line">Nous pouvons vous offrir plusieurs services</h2>
-            </div>
-        </div>
-        <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
-            Nous vous accompagnons dans la réalisation de vos projets informatiques.
-        </p>
-    </div>
-
-    <div class="service-tag py-5 bg-secondary">
-        <div class="col-md-12">
-            <ul class="nav d-flex justify-content-center">
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
-                </li>
-                <li class="filter-btn nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-</section>
-
-<section class="container overflow-hidden py-5">
-    <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="service card-img" src="/img/services-01.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="/img/services-03.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="/img/services-06.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
+<section class="bg-white py-5" style="margin-top: 225px; margin-bottom: 235px">
+    <div class="container">
+        <h1 class="text-center">
+            <strong style="color: #d90429">Stack-X</strong> Votre partenaire de confiance
+        </h1>
+        <h4 class="text-center">
+            Expert en conseil et en développement de solutions digitales
+        </h4>
     </div>
 </section>
-<!-- End Service -->
 
+<!-- Start Progress -->
+<section class="bg-light py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3 text-center">Consultant</h1>
 
-
-
-
-
-<!-- Start View Work -->
-<section class="bg-secondary">
-    <div class="container py-5">
-        <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-2 col-12 text-light align-items-center">
-                <i class='display-1 bx bxs-box bx-lg'></i>
-            </div>
-            <div class="col-lg-7 col-12 text-light pt-2">
-                <h3 class="h4 light-300">Nous sommes dans le monde de l'IT</h3>
-                <p class="light-300">
-                    Confiez-nous vos projets et nous vous aiderons à les réaliser.
+        <div class="creative-content row py-3">
+            <div class="text-center">
+                <p class="text-muted light-300">
+                    Le metier de consultant est un metier qui consiste à conseiller les entreprises dans leur stratégie de développement.
+                    Il peut s'agir de conseiller en management, en organisation, en ressources humaines, en marketing, ...
+                </p>
+                <p>
+                    Nous sommes expert dans le domaine du conseil et nous vous accompagnons dans la mise en place de votre stratégie de développement.
                 </p>
             </div>
-            <div class="col-lg-3 col-12 pt-4">
-                <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Voir notre projets</a>
+            <a href="{{ route('contact') }}" class="btn btn-primary rounded-pill shadow px-5 py-2 mx-auto">Contactez-nous</a>
+        </div>
+    </div>
+</section>
+<!-- End Progress -->
+
+<!-- Start Progress -->
+<section class="bg-white py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3">Design D'expérience utilisateur</h1>
+        <div class="creative-content row py-3">
+            <div class="col-md-4">
+                <h5>Fléxibilité</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La fléxibilité de nos produits est pour nos developpeurs une qualité essentielle.
+                    L'expérience client est au coeur de nos préocupations.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Rapidité</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Assurer des temps de réponse rapides pour les interactions de l'utilisateur afin de maintenir son engagement.
+                    La visibilité et la rapidité de lecture sont des éléments essentiels pour une bonne expérience utilisateur.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Centré sur vos clients</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Mettre l'utilisateur au centre du processus de conception en comprenant ses besoins, ses objectifs et ses préférences pour créer une expérience sur mesure.
+                    Nos clients qui sont aussi les votres sont les plus importants pour nous.
+                </p>
+            </div>
+            <div class="creative-progress col-md-12">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End View Work -->
+<!-- End Progress -->
 
-<!-- Start Recent Work -->
-<section class="py-5 mb-5">
-    <div class="container">
-        <div class="recent-work-header row text-center pb-5">
-            <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">
-                Nos projets récents
-            </h2>
-        </div>
-        <div class="row gy-5 g-lg-5 mb-4">
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Social Media</h3>
-                            <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
-                        </div>
+<!-- Start Progress -->
+<section class="bg-light py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3 text-center">Developpement web et application</h1>
+        <div class="creative-content row py-3">
+            <div class="col-md-6">
+                <h5>Accessibilité</h5>
+                <p class="text-muted col-lg-12 light-300">
+                    Rendre les sites web et les applications accessibles à tous les utilisateurs, y compris ceux ayant des capacités différentes, en suivant les normes d'accessibilité.
+                    Stack-X vous aide à rendre vos sites web et applications accessibles à tous.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h5>Convivialité</h5>
+                <p class="text-muted col-lg-12 light-300">
+                    Créer une interface utilisateur conviviale et intuitive, en suivant les principes de conception centrés sur l'utilisateur.
+                    La convivialité est un élément essentiel pour une bonne expérience utilisateur.
+                </p>
+            </div>
+            <div class="creative-progress col-md-12">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
                     </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Web Marketing</h3>
-                            <p class="card-text">Psum officia anim id est laborum.</p>
-                        </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
                     </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">R & D</h3>
-                            <p class="card-text">Sum dolor sit consencutur</p>
-                        </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
                     </div>
-                </a>
-            </div><!-- End Recent Work -->
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<!-- End Recent Work -->
+<!-- End Progress -->
+
+<!-- Start Progress -->
+<section class="bg-white py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3">Création de site web</h1>
+
+        <div class="creative-content row py-3">
+            <div class="col-md-7">
+                <h5>Credibilité et professionnalisme</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Avoir un site web bien conçu donne une image de professionnalisme et de crédibilité à une entreprise ou une organisation. Cela renforce la confiance des clients et des partenaires potentiels.
+                    Stack-X vous aide à concevoir un site web qui vous ressemble.
+                    Le professionnalisme et la crédibilité sont des points clés pour la réussite de votre entreprise.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <h5>Innovation et créativité</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La création d'un site web permet aux concepteurs et aux développeurs de faire preuve de créativité et d'innovation dans la conception d'interfaces utilisateur attrayantes et interactives.
+                    Notre entreprise vous plongera dans l'innovation et la créativité totale.
+                </p>
+            </div>
+            <div class="creative-progress col-md-12">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Progress -->
+
+
+<section class="bg-light py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3 text-center">Intégration des systèmes</h1>
+
+        <div class="creative-content row py-3">
+            <div class="col-md-7">
+                <h5>Correction des problèmes d'intégration</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    En cas d'erreurs ou de problèmes d'intégration, Stack-X est là pour diagnostiquer et corriger les sources des erreurs ainsi que de rétablir la connectivité entre les systèmes.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <h5>Test et validation</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La maintenance implique des tests réguliers des intégrations de systèmes pour s'assurer que les données sont transmises correctement et que les processus d'intégration fonctionnent comme prévu.
+                </p>
+            </div>
+            <div class="creative-progress col-md-7 text-center">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Progress -->
+
+<!-- Start Progress -->
+<section class="bg-white py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3">Données géographiques</h1>
+
+        <div class="creative-content row py-3">
+            <div class="col-md-4">
+                <h5>Visualiser vos données</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Cela offre une meilleure compréhension de l'information spatiale et permet aux utilisateurs d'explorer les données de manière visuelle et intuitive.
+                    Stack-X vous aide à visualiser vos données afin de vous permettre de mieux gérer vos activités.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Analysez et prennez des décisions</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La visualisation des données géographiques sur un site web permet aux utilisateurs d'analyser les tendances spatiales, de repérer des modèles ou des clusters, et d'utiliser ces informations pour prendre des décisions éclairées.
+                    C'est pourquoi nous vous aidons à analyser vos données afin de vous permettre de prendre des décisions éclairées.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Faites des suivis en temps réel</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Nos produits peuvent afficher des données géographiques en temps réel, telles que la localisation des véhicules, des événements en cours, des conditions météorologiques, etc. Cela offre une mise à jour constante des informations spatiales.
+                    Vos données seront à jour et vous pourrez faire des suivis en temps réel.
+                </p>
+            </div>
+            <div class="creative-progress col-md-12">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Progress -->
+
+<!-- Start Progress -->
+<section class="bg-light py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3">Objets connectés</h1>
+
+        <div class="creative-content row py-3">
+            <div class="col-md-6">
+                <h5>Interface utilisateur adaptative</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Les objets connectés que nous concevons sont conçus de manière à s'adapter à différentes tailles d'écran, car les utilisateurs peuvent accéder à ces sites depuis des appareils variés, tels que des smartphones, des tablettes, des ordinateurs portables et des écrans intelligents.
+                    Tous les jours, de plus en plus d'appareils sont connectés à Internet. Stack-X vous aide à concevoir des interfaces utilisateur adaptatives afin de vous permettre d'atteindre un plus grand nombre d'utilisateurs.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h5>Interactions en temps réel</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    Nous vous offrons des gadgets afin de fournir des informations en temps réel sur les objets connectés, tels que les capteurs de température, les caméras de sécurité, les appareils de domotique, etc. Les utilisateurs sera en mesure de surveiller et de contrôler leurs objets en temps réel.
+                    Stack-X est dans ce domaine depuis des années et vous offre des solutions de qualité.
+                </p>
+            </div>
+            <div class="creative-progress col-md-12">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Progress -->
+
+<!-- Start Progress -->
+<section class="bg-white py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3">Maintenance et hébergement</h1>
+        <div class="creative-content row py-3">
+            <div class="col-md-4">
+                <h5>Corriger vos bugs</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La maintenance permet de détecter et de corriger les bugs, les erreurs de code, les liens brisés et autres problèmes techniques qui pourraient affecter le bon fonctionnement du site web.
+                    Les bugs sont indeniablement un problème pour votre site web. Stack-X vous aide à les corriger.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Améliorer vos fonctionnalités</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La maintenance permet d'ajouter de nouvelles fonctionnalités et d'améliorer celles existantes pour répondre aux besoins changeants des utilisateurs et améliorer l'expérience utilisateur.
+                    Stack-X vous aide à améliorer vos fonctionnalités.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5>Renforcer votre sécurité</h5>
+                <p class="text-muted col-lg-8 light-300">
+                    La maintenance comprend également la mise en place de mesures de sécurité pour protéger le site web contre les attaques de piratage, les logiciels malveillants et les vulnérabilités de sécurité.
+                    Alors pour la sécurité de vos données, Stack-X est là pour vous.
+                </p>
+            </div>
+            <div class="creative-progress col-md-7">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">Figma</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <h4 class="h5">InVision</h4>
+                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
