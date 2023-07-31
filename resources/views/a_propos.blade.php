@@ -94,16 +94,15 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="#">Processus</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('processus_intervention') }}">Processus</a>
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownProcessus" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Processus
                         </a>
                         <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownProcessus">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
-                            <a class="dropdown-item text-gray" href="{{ route('vision_methodologique') }}">Nos visions méthodologique</a>
-                            <a class="dropdown-item text-gray" href="{{ route('dispositif') }}">Nos dispositifs</a>
+                            <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}#processus">Nos processus d'intervention</a>
+                            <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}#methodes">Nos visions méthodologique</a>
                             <!-- Add more dropdown items here -->
                         </div>
                     </li>
