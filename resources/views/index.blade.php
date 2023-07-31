@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
-<!--
 
 TemplateMo 561 Purple Buzz
 
