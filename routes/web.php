@@ -113,3 +113,6 @@ Route::get("/rejoindre_stack", function (){
     return view("rejoindre_stack");
 })->name("rejoindre_stack");
 
+Route::get("/plus_rejoindre", function (){
+    return view("plus_rejoindre");
+})->name("plus_rejoindre");
