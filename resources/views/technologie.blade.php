@@ -36,12 +36,10 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-8 col-lg-6">
-                    <div class="CrAtionDeVosApplicationsMobiles mb-4"
-                        style="color: black; font-size: 2.5rem; font-family: Inter; font-weight: 600; word-wrap: break-word; text-align: center;">
-                        Création de vos applications mobiles
-                    </div>
-                    <div class="NousPlaOnsLExpRienceUtilisateurAuCUrDeNosDVeloppementsLaMeilleurePreuveDeNotreSavoirFaireEstVisibleParLeNombreDApplicationsQueNousAvonsSurLesStoresDCouvrezCommentNousPouvonsVousAccompagnerDansVosProjetsMobiles mb-4"
-                        style="color: black; font-size: 1rem; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;">
+                    <div>
+                        <h2 class="h3 regular-400">
+                            Développement de sites
+                            et applications web</h2>
                         <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
                             meilleure preuve de
                             notre
@@ -128,12 +126,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-8 col-lg-6  order-first order-md-last">
-                    <div class="CrAtionDeVosApplicationsMobiles mb-4"
-                        style="color: black; font-size: 2.5rem; font-family: Inter; font-weight: 600; word-wrap: break-word; text-align: center;">
-                        Création de vos applications mobiles
-                    </div>
-                    <div class="NousPlaOnsLExpRienceUtilisateurAuCUrDeNosDVeloppementsLaMeilleurePreuveDeNotreSavoirFaireEstVisibleParLeNombreDApplicationsQueNousAvonsSurLesStoresDCouvrezCommentNousPouvonsVousAccompagnerDansVosProjetsMobiles mb-4"
-                        style="color: black; font-size: 1rem; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;">
+                    <div>
+                        <h2 class="h3 regular-400"> Création de vos applications mobiles</h2>
                         <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
                             meilleure preuve de
                             notre
@@ -152,18 +146,15 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-8 col-lg-6">
-                    <div class="CrAtionDeVosApplicationsMobiles mb-4"
-                        style="color: black; font-size: 2.5rem; font-family: Inter; font-weight: 600; word-wrap: break-word; text-align: center;">
-                        Création de vos applications mobiles
-                    </div>
-                    <div class="NousPlaOnsLExpRienceUtilisateurAuCUrDeNosDVeloppementsLaMeilleurePreuveDeNotreSavoirFaireEstVisibleParLeNombreDApplicationsQueNousAvonsSurLesStoresDCouvrezCommentNousPouvonsVousAccompagnerDansVosProjetsMobiles mb-4"
-                        style="color: black; font-size: 1rem; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;">
-                        <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
-                            meilleure preuve de
-                            notre
-                            savoir-faire est visible par le nombre d'applications que nous avons sur les stores.
-                            Découvrez
-                            comment nous pouvons vous accompagner dans vos projets mobiles.</p>
+                    <div>
+                        <h2 class="h3 regular-400">Nous réalisons et maintenons vos logiciels</h3>
+                            <p class="light-300">Le développement logiciel sur mesure fait partie de notre ADN. L'une de
+                                nos
+                                grandes priorités est de développer des logiciels robustes et facilement maintenables.
+                                Plusieurs éditeurs reconnus nous confient la production et la maintenance de leurs
+                                logiciels.
+
+                            </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-8 col-lg-6">
