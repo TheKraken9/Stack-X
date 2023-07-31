@@ -108,12 +108,12 @@
     </div>
 </nav>
 <!-- Close Header -->
-<section class="bg-white py-5" style="margin-top: 225px; margin-bottom: 235px">
+<section class="bg-white py-5 first-section" style="margin-top: 225px; margin-bottom: 235px">
     <div class="container">
-        <h1 class="text-center">
+        <h1 class="text-center header1-mobile">
             <strong style="color: #d90429">Stack-X</strong> Votre partenaire de confiance
         </h1>
-        <h4 class="text-center">
+        <h4 class="text-center header3-mobile">
             Expert en conseil et en développement de solutions digitales
         </h4>
     </div>
@@ -122,7 +122,7 @@
 <!-- Start Progress -->
 <section class="bg-light py-5 mt-5" id="consultant">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 text-center">Consultant</h1>
+        <h1 class="creative-heading h2 pb-3 text-center header-mobile">Consultant</h1>
 
         <div class="creative-content row py-3">
             <div class="text-center">
@@ -134,7 +134,7 @@
                     Nous sommes expert dans le domaine du conseil et nous vous accompagnons dans la mise en place de votre stratégie de développement.
                 </p>
             </div>
-            <a href="{{ route('contact') }}" class="btn btn-primary rounded-pill shadow px-5 py-2 mx-auto">Contactez-nous</a>
+            <a href="{{ route('contact') }}" class="btn btn-primary rounded-pill shadow px-5 py-2 mx-auto btn-mobile">Contactez-nous</a>
         </div>
     </div>
 </section>
@@ -143,7 +143,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="ui_ux">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3">Design D'expérience utilisateur</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile">Design D'expérience utilisateur</h1>
         <div class="creative-content row py-3">
             <div class="col-md-4">
                 <h5>Fléxibilité</h5>
@@ -187,7 +187,7 @@
 <!-- Start Progress -->
 <section class="bg-light py-5 mt-5" id="dev_web_app">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 text-center">Developpement web et application</h1>
+        <h1 class="creative-heading h2 pb-3 text-center header-mobile">Developpement web et application</h1>
         <div class="creative-content row py-3">
             <div class="col-md-6">
                 <h5>Accessibilité</h5>
@@ -233,7 +233,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="app_mobile">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3">Création application mobile</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile">Création application mobile</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-7">
@@ -275,7 +275,7 @@
 
 <section class="bg-light py-5 mt-5" id="integration">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 text-center">Intégration des systèmes</h1>
+        <h1 class="creative-heading h2 pb-3 text-center header-mobile">Intégration des systèmes</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-7">
@@ -314,7 +314,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="sig">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3">Données géographiques</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile">Données géographiques</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-4">
@@ -362,7 +362,7 @@
 <!-- Start Progress -->
 <section class="bg-light py-5 mt-5" id="objet_connecte">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3">Objets connectés</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile">Objets connectés</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-6">
@@ -403,7 +403,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="maintenance">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3">Maintenance et hébergement</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile">Maintenance et hébergement</h1>
         <div class="creative-content row py-3">
             <div class="col-md-4">
                 <h5>Corriger vos bugs</h5>

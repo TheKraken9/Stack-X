@@ -31,9 +31,8 @@
 <body>
 <!-- Header -->
 <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container">
         <a class="navbar-brand h1" href="{{ route('index') }}">
-
             <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,50 +42,63 @@
         <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-md-between" id="navbar-toggler-success">
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                    <li class="nav-item dropdown mx-1 text-gray">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil text-gray" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                    <li class="nav-item dropdown mx-1">
+                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil" href="#">Société</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
+                        <!-- Affiche le bouton de toggle pour les écrans plus petits -->
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownApropos" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Société
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownApropos">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
-                            <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
-                            <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
-                            <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#qui">À propos</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#equipe">L'équipe</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#naissance">Pourquoi Stack-X</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#partenaire">Partenaires</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('consultant') }}">Services</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownService" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownService">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
-                            <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
-                            <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
-                            <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
-                            <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
-                            <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
-                            <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
-                            <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#consultant">Consultant</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#ui_ux">Design D'expérience utilisateur</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#dev_web_app">Développement web et application</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#app_mobile">Création application mobile</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#integration">Intégration de systèmes</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#sig">Données géographiques</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#objet_connecte">Objets connectés</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#maintenance">Maintenances et hébergements</a>
                             <!-- Add more dropdown items here -->
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('portfolio') }}">Références</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownReference" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Références
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownReference">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
                             <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="#">Processus</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownProcessus" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Processus
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownProcessus">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
                             <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
@@ -96,12 +108,12 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('contact') }}">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="navbar align-self-center d-flex">
-                <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                <!--<a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>-->
                 <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
             </div>
         </div>
@@ -111,25 +123,25 @@
 
 
 <!-- Start Service -->
-<section class="service-wrapper py-3" style="margin-top: 150px; margin-bottom: 50px;">
-    <div class="container-fluid pb-3">
+<section class="service-wrapper py-3 first-section" style="margin-top: 150px; margin-bottom: 50px;">
+    <div class="container-fluid pb-3 text-center">
         <div class="row">
-            <h1 class="h1 text-center col-12 py-5 semi-bold-600">Qui sommes-nous ?</h1>
+            <h1 class="h1 text-center col-lg-12 py-5 semi-bold-600 header-mobile">Qui sommes-nous ?</h1>
         </div>
-        <p class="service-footer col-12 offset-2 col-lg-9 offset-lg-2 text-start pb-3 text-muted px-2">
-            <strong style="color: #d90429; font-size: x-large">Stack-X</strong> est née dont le but est d'apporter des solutions innovantes et adaptées aux besoins de nos clients. Elle est fondée par des convictions fortes et des valeurs humaines.
+        <p class="service-footer col-sm-10 offset-lg-2 offset-sm-0 offset-lg-2 text-start pb-3 text-muted px-2">
+            <strong style="color: #d90429; font-size: x-large" class="strong-mobile">Stack-X</strong> est née dont le but est d'apporter des solutions innovantes et adaptées aux besoins de nos clients. Elle est fondée par des convictions fortes et des valeurs humaines.
         </p>
-        <p class="service-footer col-12 offset-2 col-lg-9 offset-lg-2 text-start pb-3 text-muted px-2">
-            <strong style="color: #d90429; font-size: x-large">Stack-X</strong> est une entreprise de services numériques (ESN) qui accompagne les entreprises dans leur transformation digitale. Nous sommes spécialisés dans <span class="fw-bold">le développement d’applications web et mobiles, la création de sites web, l’intégration de systèmes, la conception d’objets connectés, la maintenance et l’hébergement de solutions informatiques</span>.
+        <p class="service-footer col-sm-10 offset-lg-2 offset-sm-0 text-start pb-3 text-muted px-2">
+            <strong style="color: #d90429; font-size: x-large" class="strong-mobile">Stack-X</strong> est une entreprise de services numériques (ESN) qui accompagne les entreprises dans leur transformation digitale. Nous sommes spécialisés dans <span class="fw-bold">le développement d’applications web et mobiles, la création de sites web, l’intégration de systèmes, la conception d’objets connectés, la maintenance et l’hébergement de solutions informatiques</span>.
             Stack-X par des ingénieurs passionnés par les nouvelles technologies et l’innovation. Nous sommes basés à Madagascar, et nous intervenons dans les quatres coins du monde.
         </p>
     </div>
 </section>
 
 <!-- Start Progress -->
-<section class="bg-light py-5" style="margin-top: 50px; margin-bottom: 50px" id="qui">
+<section class="bg-light py-5 second-section" style="margin-top: 50px; margin-bottom: 50px" id="qui">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 h1 col-12 py-5 semi-bold-600">
+        <h1 class="creative-heading h2 pb-3 h1 col-12 py-5 semi-bold-600 header-mobile header-mobile-center">
             Toujours vers l'avant
         </h1>
         <div class="creative-content row py-3">
@@ -142,9 +154,9 @@
 
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-6">
-                        <h4 class="h5">Developpement web</h4>
+                        <h4 class="h5 titre-mobile">Developpement web</h4>
                     </div>
-                    <div class="col-6 text-right">66%</div>
+                    <div class="col-6 text-right titre-mobile">66%</div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
@@ -152,9 +164,9 @@
 
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-6">
-                        <h4 class="h5">Developpement logiciel</h4>
+                        <h4 class="h5 titre-mobile">Developpement logiciel</h4>
                     </div>
-                    <div class="col-6 text-right">66%</div>
+                    <div class="col-6 text-right titre-mobile">66%</div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
@@ -162,19 +174,18 @@
 
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-6">
-                        <h4 class="h5">Developpement Mobile</h4>
+                        <h4 class="h5 titre-mobile">Developpement Mobile</h4>
                     </div>
-                    <div class="col-6 text-right">50%</div>
+                    <div class="col-6 text-right titre-mobile">50%</div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-6">
-                        <h4 class="h5">Système Géographiques</h4>
+                        <h4 class="h5 titre-mobile">Système Géographiques</h4>
                     </div>
-                    <div class="col-6 text-right">33%</div>
+                    <div class="col-6 text-right titre-mobile">33%</div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
@@ -182,14 +193,13 @@
 
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-6">
-                        <h4 class="h5">Système et Réseaux / Cloud</h4>
+                        <h4 class="h5 titre-mobile">Système et Réseaux / Cloud</h4>
                     </div>
-                    <div class="col-6 text-right">35%</div>
+                    <div class="col-6 text-right titre-mobile">35%</div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -197,11 +207,11 @@
 <!-- End Progress -->
 
 <!-- Start Team Member -->
-<section class="container py-5" style="margin-top: 50px;margin-bottom: 50px" id="equipe">
+<section class="container py-5 second-section" style="margin-top: 50px;margin-bottom: 50px" id="equipe">
     <div class="pb-3 d-lg-flex align-items-center gx-5">
 
         <div class="col-lg-3">
-            <h2 class="h2 py-5 typo-space-line h1 col-12 py-5 semi-bold-600">Notre équipe</h2>
+            <h2 class="h2 py-5 typo-space-line h1 col-12 py-5 semi-bold-600 header-mobile">Notre équipe</h2>
             <p class="text-muted light-300">
                 Nous sommes composé de trois personnes passionnés par les nouvelles technologies et l’innovation.
             </p>
@@ -239,15 +249,15 @@
     <div class="feature-work container my-4">
         <div class="row d-flex d-flex align-items-center">
             <div class="col-lg-6 align-left">
-                <div class="row">
+                <div class="row pic-mobile">
                     <a class="col offset-1" data-type="image" data-fslightbox="gallery" href="">
                         <img class="img-fluid rounded-3" src="/img/apple-icon.png" style="width: 400px; height: 400px" >
                     </a>
                 </div>
             </div>
             <div class="col-lg-5">
-                <h3 class="feature-work-title h4 text-muted light-300">Stack-X créée en 2023</h3>
-                <h1 class="feature-work-heading h2 py-3 semi-bold-600">Transformation digitale</h1>
+                <h3 class="feature-work-title h4 text-muted light-300 text-center text-mobile">Stack-X créée en 2023</h3>
+                <h1 class="feature-work-heading h2 py-3 semi-bold-600 header-mobile">Transformation digitale</h1>
                 <p class="feature-work-body text-muted light-300">
                     L'entreprise combine les dernières technologies avec une approche créative et une expertise métier pour aider les entreprises à se transformer et à s'améliorer.
                     <br><strong>Stack-X</strong> vise à être un partenaire de confiance pour les entreprises qui souhaitent innover et se développer grâce à la technologie.
@@ -257,7 +267,9 @@
                     Stack-X est en pleine croissance et nous sommes toujours à la recherche de nouveaux talents pour rejoindre notre équipe.
                     Nous sommes spécialisés dans <strong>le développement d’applications web et mobiles, <strong>la création de sites web</strong>, <strong>l’intégration de systèmes</strong>, <strong>la conception d’objets connectés</strong>, <strong>la maintenance et l’hébergement de solutions informatiques</strong>.
                 </p>
-                <a class="btn btn-outline-primary rounded-pill float-end" href="{{ route('rejoindre_stack') }}">Rejoindre Stack-X</a>
+                <div class="text-center">
+                    <a class="btn btn-outline-primary rounded-pill btn-block shadow px-4 py-2center-mobile" href="{{ route('rejoindre_stack') }}#consultant" role="button">Rejoindre Stack-X</a>
+                </div>
             </div>
         </div>
     </div>
@@ -267,7 +279,7 @@
 <!-- Start Our Partner -->
 <section class="py-3" style="margin-bottom: 100px" id="partenaire">
     <div class="container py-5">
-        <h2 class="h2 text-dark text-center py-5">Notre partenaires</h2>
+        <h2 class="h2 text-dark text-center py-5 semi-bold-600 header-mobile">Notre partenaires</h2>
         <p class="feature-work-body text-muted text-center light-300">
             Nous travaillons avec des partenaires de confiance pour fournir des solutions de bout en bout à nos clients.
         </p>
