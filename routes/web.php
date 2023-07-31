@@ -119,3 +119,6 @@ Route::get("/plus_rejoindre", function (){
     return view("plus_rejoindre");
 })->name("plus_rejoindre");
 
+// mail
+Route::post('contact_mail',[MailController::class,'contact_mail_send']);
+
