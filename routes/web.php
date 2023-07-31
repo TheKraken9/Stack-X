@@ -114,5 +114,3 @@ Route::get("/blog", function () {
 Route::get("/rejoindre_stack", function (){
     return view("rejoindre_stack");
 })->name("rejoindre_stack");
-// mail
-Route::post('contact_mail',[MailController::class,'contact_mail_send']);
