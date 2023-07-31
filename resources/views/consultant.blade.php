@@ -123,7 +123,6 @@
 <section class="bg-light py-5 mt-5" id="consultant">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3 text-center header-mobile">Consultant</h1>
-
         <div class="creative-content row py-3">
             <div class="text-center">
                 <p class="text-muted light-300">
@@ -273,36 +272,35 @@
 <!-- End Progress -->
 
 
-<section class="bg-light py-5 mt-5" id="integration">
+<section class="bg-white py-5 mt-5" id="integration">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3 text-center header-mobile">Intégration des systèmes</h1>
-
         <div class="creative-content row py-3">
-            <div class="col-md-7">
+            <div class="col-md-4">
                 <h5>Correction des problèmes d'intégration</h5>
                 <p class="text-muted col-lg-8 light-300">
                     En cas d'erreurs ou de problèmes d'intégration, Stack-X est là pour diagnostiquer et corriger les sources des erreurs ainsi que de rétablir la connectivité entre les systèmes.
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <h5>Test et validation</h5>
                 <p class="text-muted col-lg-8 light-300">
                     La maintenance implique des tests réguliers des intégrations de systèmes pour s'assurer que les données sont transmises correctement et que les processus d'intégration fonctionnent comme prévu.
                 </p>
             </div>
+            <div class="col-md-4">
+                <img src="/img/sys.jpg" style="width: 100%; height: 100%">
+            </div>
             <div class="creative-progress col-md-7 text-center">
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/sys-01.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/sys-02.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/sys-03.png" style="width: 50px;height: 50px">
                     </div>
                 </div>
             </div>
@@ -341,16 +339,13 @@
             <div class="creative-progress col-md-12">
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/sig-01.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/sig-02.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/sig-03.png" style="width: 50px;height: 50px">
                     </div>
                 </div>
             </div>
@@ -382,16 +377,13 @@
             <div class="creative-progress col-md-12">
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/objet-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
                         <img src="/img/desk-01.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
-                    </div>
-                    <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/objet-02.png" style="width: 80px;height: 50px">
                     </div>
                 </div>
             </div>
@@ -428,17 +420,14 @@
             </div>
             <div class="creative-progress col-md-7">
                 <div class="row mt-4 mt-sm-2">
-                    <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    <div class="col-3">
+                        <img src="/img/heb-01.png" style="width: 90px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/heb-02.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/heb-03.png" style="width: 100px;height: 60px">
                     </div>
                 </div>
             </div>
