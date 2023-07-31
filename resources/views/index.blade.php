@@ -377,7 +377,7 @@ https://templatemo.com/tm-561-purple-buzz
             </div><!-- End Recent Work -->
         </div>
         <div class="text-center">
-            <a class="btn btn-outline-primary rounded-pill btn-block shadow px-4 py-2center-mobile" href="{{ route('consultant') }}#consultant" role="button">Voir plus</a>
+            <a class="btn btn-outline-primary rounded-pill btn-block shadow px-4 py-2 center-mobile" href="{{ route('consultant') }}#consultant" role="button">Voir plus</a>
         </div>
     </section>
     <!-- End Service -->

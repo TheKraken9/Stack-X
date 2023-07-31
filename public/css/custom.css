@@ -91,6 +91,15 @@ body {
         height: 100%;
     }
 
+    .img-basus {
+        width: 50%;
+        max-height: 100%;
+    }
+
+    .img-mobile-resp {
+        display: none;
+    }
+
     .pic-mobile {
         max-width: 100%;
         height: auto!important;
