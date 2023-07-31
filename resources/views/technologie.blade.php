@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <title>Stack-X | Technologie</title>
@@ -19,86 +19,190 @@
     <link rel="stylesheet" href="/css/custom.css">
     <!--
 
-    TemplateMo 561 Purple Buzz
+ -->
 
-    https://templatemo.com/tm-561-purple-buzz
-
-    -->
-    <style>
-
-    </style>
 </head>
 
 <body>
     <!-- Header -->
     @include('header')
     <!-- Close Header -->
-    <style>
-    .container-fluid i {
-        color: #8d99ae;
-        font-size: 40px;
-        margin-bottom: 20px;
-        float: left;
 
-    }
-
-    .app {
-        width: 700px;
-        padding-left: 100px;
-        border: solid black 1px;
-        float: left;
-    }
-
-    .service-wrapper h1 {
-        margin-right: 10px;
-        color: #8d99ae;
-    }
-
-    .service-wrapper p {
-        color: #444;
-        margin-bottom: 50px;
-        margin-left: 60px;
-    }
-
-    /*  */
-    .image {
-        border: solid black 1px;
-        margin-left: 700px;
-        height: 700px;
-    }
-
-    .x {
-        margin-top: 100px;
-    }
-
-    .y {
-        margin-top: 200px;
-    }
-    </style>
     <br>
     <br>
     <br>
     <br>
-    <section class="service-wrapper py-3">
-        <div class="container-fluid app pb-3">
-            <i class="fas fa-globe">
-                . </i>
-            <h1 class="h1 col-12 semi-bold-600"> Sites
-                et <br>applications web</h1>
-            <p>Découvrez notre équipe hautement compétente, passionnée et expérimentée,<br> prête à relever tous les
-                défis du dévelopement pour créer des solutions innovantes <BR>et de haute qualité qui dépassent vos
-                attentes.
-            </p>
-        </div>
-        <div class="image">
-            <img src="img/logo hope.png" class="w" width="100px" border="1px">
-            <img src="img/logo hope.png" class="x" width="100px" border="1px">
-            <img src="img/logo hope.png" class="y" width="100px" border="1px">
-            <img src="img/logo hope.png" class="y" width="100px" border="1px">
+    <section>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="CrAtionDeVosApplicationsMobiles mb-4"
+                        style="color: black; font-size: 2.5rem; font-family: Inter; font-weight: 600; word-wrap: break-word; text-align: center;">
+                        Création de vos applications mobiles
+                    </div>
+                    <div class="NousPlaOnsLExpRienceUtilisateurAuCUrDeNosDVeloppementsLaMeilleurePreuveDeNotreSavoirFaireEstVisibleParLeNombreDApplicationsQueNousAvonsSurLesStoresDCouvrezCommentNousPouvonsVousAccompagnerDansVosProjetsMobiles mb-4"
+                        style="color: black; font-size: 1rem; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;">
+                        <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
+                            meilleure preuve de
+                            notre
+                            savoir-faire est visible par le nombre d'applications que nous avons sur les stores.
+                            Découvrez
+                            comment nous pouvons vous accompagner dans vos projets mobiles.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="row">
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- End Service -->
     <br>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-8 col-lg-6 order-last order-md-first">
+                    <div class="row">
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-6  order-first order-md-last">
+                    <div class="CrAtionDeVosApplicationsMobiles mb-4"
+                        style="color: black; font-size: 2.5rem; font-family: Inter; font-weight: 600; word-wrap: break-word; text-align: center;">
+                        Création de vos applications mobiles
+                    </div>
+                    <div class="NousPlaOnsLExpRienceUtilisateurAuCUrDeNosDVeloppementsLaMeilleurePreuveDeNotreSavoirFaireEstVisibleParLeNombreDApplicationsQueNousAvonsSurLesStoresDCouvrezCommentNousPouvonsVousAccompagnerDansVosProjetsMobiles mb-4"
+                        style="color: black; font-size: 1rem; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;">
+                        <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
+                            meilleure preuve de
+                            notre
+                            savoir-faire est visible par le nombre d'applications que nous avons sur les stores.
+                            Découvrez
+                            comment nous pouvons vous accompagner dans vos projets mobiles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="CrAtionDeVosApplicationsMobiles mb-4"
+                        style="color: black; font-size: 2.5rem; font-family: Inter; font-weight: 600; word-wrap: break-word; text-align: center;">
+                        Création de vos applications mobiles
+                    </div>
+                    <div class="NousPlaOnsLExpRienceUtilisateurAuCUrDeNosDVeloppementsLaMeilleurePreuveDeNotreSavoirFaireEstVisibleParLeNombreDApplicationsQueNousAvonsSurLesStoresDCouvrezCommentNousPouvonsVousAccompagnerDansVosProjetsMobiles mb-4"
+                        style="color: black; font-size: 1rem; font-family: Inter; font-weight: 400; word-wrap: break-word; text-align: center;">
+                        <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
+                            meilleure preuve de
+                            notre
+                            savoir-faire est visible par le nombre d'applications que nous avons sur les stores.
+                            Découvrez
+                            comment nous pouvons vous accompagner dans vos projets mobiles.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="row">
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <br>
     <br>
     <br>
@@ -106,7 +210,6 @@
     <!-- Start Footer -->
     @include('footer')
     <!-- End Footer -->
-
 
     <!-- Bootstrap -->
     <script src="/js/bootstrap.bundle.min.js"></script>
