@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Stack-X | Accueil</title>
+    <title>Stack-X | Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/img/apple-icon.png">
@@ -65,7 +65,7 @@
                             <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
                             <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
                             <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
-                            <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
+                            <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création application mobile</a>
                             <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
                             <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
                             <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
@@ -120,7 +120,7 @@
 </section>
 
 <!-- Start Progress -->
-<section class="bg-light py-5 mt-5">
+<section class="bg-light py-5 mt-5" id="consultant">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3 text-center">Consultant</h1>
 
@@ -141,7 +141,7 @@
 <!-- End Progress -->
 
 <!-- Start Progress -->
-<section class="bg-white py-5 mt-5">
+<section class="bg-white py-5 mt-5" id="ui_ux">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3">Design D'expérience utilisateur</h1>
         <div class="creative-content row py-3">
@@ -169,20 +169,13 @@
             <div class="creative-progress col-md-12">
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/ui-01.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/ui-02.png" style="width: 40px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
-                    </div>
-                    <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/ui-03.png" style="width: 50px;height: 50px">
                     </div>
                 </div>
             </div>
@@ -192,7 +185,7 @@
 <!-- End Progress -->
 
 <!-- Start Progress -->
-<section class="bg-light py-5 mt-5">
+<section class="bg-light py-5 mt-5" id="dev_web_app">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3 text-center">Developpement web et application</h1>
         <div class="creative-content row py-3">
@@ -211,30 +204,24 @@
                 </p>
             </div>
             <div class="creative-progress col-md-12">
-                <div class="row mt-4 mt-sm-2">
+                <div class="row mt-4 mt-sm-2 text-muted">
                     <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
+                        <img src="/img/web-01.png" style="width: 55px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <img src="/img/web-02.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <img src="/img/web-04.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
                         <img src="/img/desk-01.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/desk-02.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
-                    </div>
-                    <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
-                    </div>
-                    <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
-                    </div>
-                    <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/desk-03.png" style="width: 50px;height: 50px">
                     </div>
                 </div>
             </div>
@@ -244,9 +231,9 @@
 <!-- End Progress -->
 
 <!-- Start Progress -->
-<section class="bg-white py-5 mt-5">
+<section class="bg-white py-5 mt-5" id="app_mobile">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3">Création de site web</h1>
+        <h1 class="creative-heading h2 pb-3">Création application mobile</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-7">
@@ -267,16 +254,16 @@
             <div class="creative-progress col-md-12">
                 <div class="row mt-4 mt-sm-2">
                     <div class="col-2">
-                        <h4 class="h5">Adobe</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/tech-01.png" style="width: 55px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">Figma</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/tech-02.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <h4 class="h5">InVision</h4>
-                        <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                        <img src="/img/tech-03.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <img src="/img/tech-04.png" style="width: 50px;height: 50px">
                     </div>
                 </div>
             </div>
@@ -286,7 +273,7 @@
 <!-- End Progress -->
 
 
-<section class="bg-light py-5 mt-5">
+<section class="bg-light py-5 mt-5" id="integration">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3 text-center">Intégration des systèmes</h1>
 
@@ -325,7 +312,7 @@
 <!-- End Progress -->
 
 <!-- Start Progress -->
-<section class="bg-white py-5 mt-5">
+<section class="bg-white py-5 mt-5" id="sig">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3">Données géographiques</h1>
 
@@ -373,7 +360,7 @@
 <!-- End Progress -->
 
 <!-- Start Progress -->
-<section class="bg-light py-5 mt-5">
+<section class="bg-light py-5 mt-5" id="objet_connecte">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3">Objets connectés</h1>
 
@@ -414,7 +401,7 @@
 <!-- End Progress -->
 
 <!-- Start Progress -->
-<section class="bg-white py-5 mt-5">
+<section class="bg-white py-5 mt-5" id="maintenance">
     <div class="container my-4">
         <h1 class="creative-heading h2 pb-3">Maintenance et hébergement</h1>
         <div class="creative-content row py-3">
@@ -452,6 +439,30 @@
                     <div class="col-2">
                         <h4 class="h5">InVision</h4>
                         <img src="/img/desk-01.png" style="width: 50px;height: 50px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Start Progress -->
+<section class="bg-white py-5 mt-5">
+    <div class="container my-4">
+        <h1 class="creative-heading h2 pb-3"></h1>
+        <div class="creative-content row py-3">
+
+            <div class="creative-progress col-md-7">
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-2">
+                        <img src="/img/other-01.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <img src="/img/other-02.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
+                        <img src="/img/other-03.png" style="width: 50px;height: 50px">
                     </div>
                 </div>
             </div>

@@ -64,7 +64,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
                                 <div class="dropdown-arrow"></div>
                                 <!-- Dropdown menu items -->
-                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
+                                <a class="dropdown-item text-gray" href="{{ route('consultant') }}#consultant">Consultant</a>
                                 <a class="dropdown-item text-gray" href="{{ route('consultant') }}#ui_ux">Design D'expérience utilisateur</a>
                                 <a class="dropdown-item text-gray" href="{{ route('consultant') }}#dev_web_app">Développement web et application</a>
                                 <a class="dropdown-item text-gray" href="{{ route('consultant') }}#app_mobile">Création application mobile</a>
@@ -103,7 +103,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                    <!--<a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>-->
                     <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
                 </div>
             </div>
@@ -126,14 +126,13 @@ https://templatemo.com/tm-561-purple-buzz
                     <div class="carousel-item">
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                                <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line fs-sm-4">
                                     Tranformez vos <strong>Idées</strong> en une
                                   <br>réalité numérique
                               </h2>
-                                <p class="banner-body text-muted py-3">
+                                <p class="banner-body text-muted py-3 fs-sm-4">
                                     Nous vous accompagnons dans la réalisation de vos projets numériques.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +146,6 @@ https://templatemo.com/tm-561-purple-buzz
                                 <p class="banner-body text-muted py-3">
                                     Vous avez une idée de projet, nous avons les compétences pour la réaliser.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
                             </div>
                         </div>
 
@@ -163,7 +161,6 @@ https://templatemo.com/tm-561-purple-buzz
                                 <p class="banner-body text-muted py-3">
                                     Nous vous accompagnons dans la réalisation de vos projets informatiques.
                                 </p>
-                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
                             </div>
                         </div>
                     </div>
@@ -185,12 +182,12 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Start Service -->
-    <section class="service-wrapper py-3">
+    <section class="service-wrapper py-3 mt-5" id="commencer">
         <div class="container-fluid pb-3">
             <div class="row">
                 <h2 class="h2 text-center col-12 py-5 semi-bold-600">Services et technologies</h2>
-                <div class="service-header col-2 col-lg-3 text-end light-300">
-                    <i class='bx bx-gift h3 mt-1'></i>
+                <div class="service-header col-8 col-lg-3 col-sm-1 col-md-1 text-end light-300">
+                    <img src="/img/apple-icon.png" style="max-width: 100px;max-height: 100px;" class="rounded-2">
                 </div>
                 <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
                     <h2 class="h3 pb-4 typo-space-line">Nous pouvons vous offrir plusieurs services</h2>
@@ -201,150 +198,178 @@ https://templatemo.com/tm-561-purple-buzz
             </p>
         </div>
 
-        <div class="service-tag py-5 bg-secondary">
+        <div class="service-tag">
             <div class="col-md-12">
                 <ul class="nav d-flex justify-content-center">
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
+                        <a class="filter-btn nav-link btn-outline-primary active text-dark shadow-sm rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
+                        <a class="filter-btn nav-link btn-outline-primary shadow-sm text-dark rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
                     </li>
                     <li class="filter-btn nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
+                        <a class="filter-btn nav-link btn-outline-primary shadow-sm text-dark rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
                     </li>
                     <li class="nav-item mx-lg-4">
-                        <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
+                        <a class="filter-btn nav-link btn-outline-primary shadow-sm text-dark rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
                     </li>
                 </ul>
             </div>
         </div>
-
     </section>
 
-    <section class="container overflow-hidden py-5">
-        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+    <section class="container overflow-hidden py-5 mb-5 bg">
+        <div class="row gx-5 gx-sm-1 gx-lg-5 gy-lg-5 gy-sm-2 gy-3 pb-3 projects">
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
+            <div class="col-xl-1 col-md-1 col-sm-1 project tout mobile">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="service card-img" src="/img/tech-01.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
+            <div class="col-xl-1 col-md-1 col-sm-1 project tout mobile">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="service card-img" src="/img/tech-02.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
+            <div class="col-xl-1 col-md-1 col-sm-1 project tout mobile">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="service card-img" src="/img/tech-03.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-1 col-md-1 col-sm-1 project tout mobile">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="/img/tech-04.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
 
 
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+            <div class="col-xl-1 col-md-1 col-sm-1 project tout web">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/web-01.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+            <div class="col-xl-1 col-md-1 col-sm-1 project tout web">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/web-02.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/web-03.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/web-04.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/web-05.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/web-06.png" alt="Card image">
                 </a>
             </div>
             <!-- End Recent Work -->
-
-
-
+            <!-- Start Recent Work -->
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-07.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-07.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/web-08.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/desk-01.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/desk-02.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/desk-03.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/desk-04.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/desk-05.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
             <!-- Start Recent Work -->
-            <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
                 <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
                     <img class="card-img" src="/img/desk-06.png" alt="Card image">
                 </a>
             </div><!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="/img/desk-08.png" alt="Card image">
+                </a>
+            </div><!-- End Recent Work -->
         </div>
+        <a class="banner-button btn rounded-pill btn-outline-primary btn-sm px-4 float-end" href="{{ route('consultant') }}#consultant" role="button">Voir plus</a>
     </section>
     <!-- End Service -->
 
-
-
-
-
-
+    <div class="recent-work-header text-center">
+        <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">
+            Nos projets récents
+        </h2>
+    </div>
     <!-- Start View Work -->
     <section class="bg-secondary">
         <div class="container py-5">
             <div class="row d-flex justify-content-center text-center">
-                <div class="col-lg-2 col-12 text-light align-items-center">
-                    <i class='display-1 bx bxs-box bx-lg'></i>
-                </div>
                 <div class="col-lg-7 col-12 text-light pt-2">
                     <h3 class="h4 light-300">Nous sommes dans le monde de l'IT</h3>
                     <p class="light-300">
@@ -352,7 +377,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </p>
                 </div>
                 <div class="col-lg-3 col-12 pt-4">
-                    <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Voir notre projets</a>
+                    <a href="{{ route('portfolio') }}" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Voir notre projets</a>
                 </div>
             </div>
         </div>
@@ -360,11 +385,58 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- End View Work -->
 
     <!-- Start Recent Work -->
-    <section class="py-5 mb-5">
+    <section class="py-5">
+        <div class="container">
+            <div class="row gy-5 g-lg-5 mb-4">
+                <!-- Start Recent Work -->
+                <div class="col-md-3 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
+                        <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Hope Services</h3>
+                                <p class="card-text">Site e-commerce et vitrine</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-3 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
+                        <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">E.J.A.</h3>
+                                <p class="card-text">Site vitrine</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-3 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
+                        <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">R & D</h3>
+                                <p class="card-text">Sum dolor sit consencutur</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+            </div>
+        </div>
+    </section>
+    <!-- End Recent Work -->
+
+    <!-- Start Recent Work -->
+    <section class="my-5 mb-5 bg-light">
         <div class="container">
             <div class="recent-work-header row text-center pb-5">
                 <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">
-                    Nos projets récents
+                    Blog
                 </h2>
             </div>
             <div class="row gy-5 g-lg-5 mb-4">
@@ -405,7 +477,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </div>
                         </div>
                     </a>
-                </div><!-- End Recent Work -->
+                </div>
             </div>
         </div>
     </section>
