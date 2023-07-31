@@ -31,9 +31,8 @@
 <body>
 <!-- Header -->
 <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container">
         <a class="navbar-brand h1" href="{{ route('index') }}">
-
             <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,46 +46,59 @@
                         <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
+                        <!-- Affiche le bouton de toggle pour les écrans plus petits -->
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownApropos" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Société
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownApropos">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
-                            <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
-                            <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
-                            <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#qui">À propos</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#equipe">L'équipe</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#naissance">Pourquoi Stack-X</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#partenaire">Partenaires</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('consultant') }}">Services</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownService" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownService">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
-                            <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
-                            <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
-                            <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création site web</a>
-                            <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
-                            <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
-                            <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
-                            <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#consultant">Consultant</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#ui_ux">Design D'expérience utilisateur</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#dev_web_app">Développement web et application</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#app_mobile">Création application mobile</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#integration">Intégration de systèmes</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#sig">Données géographiques</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#objet_connecte">Objets connectés</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#maintenance">Maintenances et hébergements</a>
                             <!-- Add more dropdown items here -->
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('portfolio') }}">Références</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownReference" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Références
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownReference">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
                             <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="#">Processus</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownProcessus" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Processus
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownProcessus">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
                             <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
@@ -96,12 +108,12 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('contact') }}">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="navbar align-self-center d-flex">
-                <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                <!--<a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>-->
                 <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
             </div>
         </div>
@@ -110,216 +122,68 @@
 <!-- Close Header -->
 
 
-<!-- Start Banner Hero -->
-<div class="banner-wrapper bg-light mt-5" style="margin-top: 70px!important;">
-    <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
-        <!-- Start slider -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
-                                Tranformez vos <strong>Idées</strong> en une
-                                <br>réalité numérique
-                            </h2>
-                            <p class="banner-body text-muted py-3">
-                                Nous vous accompagnons dans la réalisation de vos projets numériques.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h2 class="banner-heading h2 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                Des solutions <strong>innovantes</strong> pour votre
-                                <br>entreprise
-                            </h2>
-                            <p class="banner-body text-muted py-3">
-                                Vous avez une idée de projet, nous avons les compétences pour la réaliser.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item active">
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                <strong>Stack-X</strong>
-                                <br>
-                            </h1>
-                            <h2> est une entreprise de développement logiciel et de conseil en ingénierie informatique.</h2>
-                            <p class="banner-body text-muted py-3">
-                                Nous vous accompagnons dans la réalisation de vos projets informatiques.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Commencer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                <i class='bx bx-chevron-left'></i>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                <i class='bx bx-chevron-right'></i>
-                <span class="visually-hidden">Next</span>
-            </a>
-        </div>
-        <!-- End slider -->
-
-    </div>
-</div>
-<!-- End Banner Hero -->
-
-
-<!-- Start Service -->
-<section class="service-wrapper py-3">
-    <div class="container-fluid pb-3">
-        <div class="row">
-            <h2 class="h2 text-center col-12 py-5 semi-bold-600">Services et technologies</h2>
-            <div class="service-header col-2 col-lg-3 text-end light-300">
-                <i class='bx bx-gift h3 mt-1'></i>
-            </div>
-            <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                <h2 class="h3 pb-4 typo-space-line">Nous pouvons vous offrir plusieurs services</h2>
-            </div>
-        </div>
-        <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
-            Nous vous accompagnons dans la réalisation de vos projets informatiques.
-        </p>
-    </div>
-
-    <div class="service-tag py-5 bg-secondary">
-        <div class="col-md-12">
-            <ul class="nav d-flex justify-content-center">
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".tout">Tout</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".web">Web</a>
-                </li>
-                <li class="filter-btn nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".mobile">Mobile</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".desktop">Desktop</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-</section>
-
-<section class="container overflow-hidden py-5">
-    <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-1 col-sm-2 project tout mobile">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="service card-img" src="/img/services-01.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-4 col-sm-6 project tout web">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="/img/services-03.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-2 col-md-4 col-sm-6 project tout desktop">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="/img/services-06.jpg" alt="Card image">
-            </a>
-        </div><!-- End Recent Work -->
-    </div>
-</section>
-<!-- End Service -->
-
-
-
-
-
-
-<!-- Start View Work -->
-<section class="bg-secondary">
-    <div class="container py-5">
-        <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-2 col-12 text-light align-items-center">
-                <i class='display-1 bx bxs-box bx-lg'></i>
-            </div>
-            <div class="col-lg-7 col-12 text-light pt-2">
-                <h3 class="h4 light-300">Nous sommes dans le monde de l'IT</h3>
-                <p class="light-300">
-                    Confiez-nous vos projets et nous vous aiderons à les réaliser.
-                </p>
-            </div>
-            <div class="col-lg-3 col-12 pt-4">
-                <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Voir notre projets</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End View Work -->
-
 <!-- Start Recent Work -->
 <section class="py-5 mb-5">
     <div class="container">
         <div class="recent-work-header row text-center pb-5">
-            <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">
-                Nos projets récents
+            <h2 class="m-auto h2 semi-bold-600 py-5">
+                Devenez membre de Stack-X
             </h2>
         </div>
-        <div class="row gy-5 g-lg-5 mb-4">
-
+        <div class="row gy-5 g-lg-5 mb-4 col-lg-12 col-md-12 col-sm-10">
             <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Social Media</h3>
-                            <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
+            <div class="col-md-2 mb-3 shadow-sm rounded-2 p-5 img-basus">
+                <a href="#" class="recent-work service-work card border-0 overflow-hidden text-decoration-none">
+                    <div class="">
+                        <img class="recent-work-img card-img" src="/img/web-09.png" alt="Card image">
+                    </div>
+                    <div class="d-flex align-items-end">
+                        <div class="text-center mb-3 ml-3 text-dark">
+                            <h6 class="card-title light-200 mt-5">Symfony Confirmé</h6>
+                            <div class="text-center">
+                                <a class="btn btn-outline-primary rounded-pill btn-block shadow-sm px-4 py-2 center-mobile mt-5" href="{{ route('consultant') }}#consultant" role="button"><small>Details</small></a>
+                            </div>
                         </div>
                     </div>
                 </a>
-            </div><!-- End Recent Work -->
+            </div>
+            <!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Web Marketing</h3>
-                            <p class="card-text">Psum officia anim id est laborum.</p>
+            <div class="col-md-2 mb-3 shadow-sm rounded-2 p-5 img-basus">
+                <a href="#" class="recent-work service-work card border-0 overflow-hidden text-decoration-none">
+                    <img class="recent-work-img card-img" src="/img/desk-03.png" alt="Card image">
+                    <div class="d-flex align-items-end">
+                        <div class="text-center mb-3 ml-3 text-dark">
+                            <h6 class="card-title light-200 mt-5">.Net Sénior</h6>
+                            <div class="text-center">
+                                <a class="btn btn-outline-primary rounded-pill btn-block shadow-sm px-4 py-2 center-mobile mt-5" href="{{ route('consultant') }}#consultant" role="button"><small>Details</small></a>
+                            </div>
                         </div>
                     </div>
                 </a>
-            </div><!-- End Recent Work -->
+            </div>
+            <!-- End Recent Work -->
 
             <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">R & D</h3>
-                            <p class="card-text">Sum dolor sit consencutur</p>
+            <div class="col-md-2 mb-3 shadow-sm rounded-2 p-5 img-basus">
+                <a href="#" class="recent-work service-work card border-0 overflow-hidden text-decoration-none">
+                    <img class="recent-work-img card-img" src="/img/web-01.png" alt="Card image">
+                    <div class="d-flex align-items-end">
+                        <div class="text-center mb-3 ml-3 text-dark">
+                            <h6 class="card-title light-200 mt-5">React Sénior</h6>
+                            <div class="text-center">
+                                <a class="btn btn-outline-primary rounded-pill btn-block shadow-sm px-4 py-2 center-mobile mt-5" href="{{ route('consultant') }}#consultant" role="button"><small>Details</small></a>
+                            </div>
                         </div>
                     </div>
                 </a>
-            </div><!-- End Recent Work -->
+            </div>
+
+            <div class="text-center">
+                <a href="{{ route('plus_rejoindre') }}" class="btn btn-primary rounded-pill btn-block shadow-sm px-4 py-2 center-mobile mt-5">Voir plus d'annonces</a>
+            </div>
+            <!-- End Recent Work -->
         </div>
     </div>
 </section>

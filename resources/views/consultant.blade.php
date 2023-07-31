@@ -31,9 +31,8 @@
 <body>
 <!-- Header -->
 <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container">
         <a class="navbar-brand h1" href="{{ route('index') }}">
-
             <span class="text-dark h4">Stack-</span> <span class="text-primary h4"><strong>X</strong></span>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,46 +46,59 @@
                         <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="#">Société</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
+                        <!-- Affiche le bouton de toggle pour les écrans plus petits -->
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownApropos" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Société
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownApropos">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}">À propos</a>
-                            <a class="dropdown-item text-gray" href="{{ route('equipe') }}">L'équipe</a>
-                            <a class="dropdown-item text-gray" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
-                            <a class="dropdown-item text-gray" href="{{ route('partenaire') }}">Partenaires</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#qui">À propos</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#equipe">L'équipe</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#naissance">Pourquoi Stack-X</a>
+                            <a class="dropdown-item text-gray" href="{{ route('a_propos') }}#partenaire">Partenaires</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Services</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('consultant') }}">Services</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownService" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownService">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
-                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}">Consultant</a>
-                            <a class="dropdown-item text-gray" href="{{ route('ui_ux') }}">Design D'expérience utilisateur</a>
-                            <a class="dropdown-item text-gray" href="{{ route('dev_web_app') }}">Développement web et application</a>
-                            <a class="dropdown-item text-gray" href="{{ route('site_web') }}">Création application mobile</a>
-                            <a class="dropdown-item text-gray" href="{{ route('integration_systeme') }}">Intégration de systèmes</a>
-                            <a class="dropdown-item text-gray" href="{{ route('sig') }}">Données géographiques</a>
-                            <a class="dropdown-item text-gray" href="{{ route('objet_connecte') }}">Objets connectés</a>
-                            <a class="dropdown-item text-gray" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#consultant">Consultant</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#ui_ux">Design D'expérience utilisateur</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#dev_web_app">Développement web et application</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#app_mobile">Création application mobile</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#integration">Intégration de systèmes</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#sig">Données géographiques</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#objet_connecte">Objets connectés</a>
+                            <a class="dropdown-item text-gray" href="{{ route('consultant') }}#maintenance">Maintenances et hébergements</a>
                             <!-- Add more dropdown items here -->
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('technologie') }}">Technologies</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Références</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('portfolio') }}">Références</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownReference" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Références
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownReference">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
                             <a class="dropdown-item text-gray" href="{{ route('portfolio') }}">Portfolio</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="#">Processus</a>
-                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownAccueil">
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="#">Processus</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownProcessus" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Processus
+                        </a>
+                        <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownProcessus">
                             <div class="dropdown-arrow"></div>
                             <!-- Dropdown menu items -->
                             <a class="dropdown-item text-gray" href="{{ route('processus_intervention') }}">Nos processus d'intervention</a>
@@ -96,18 +108,19 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="text-decoration-none px-1 bouton_accueil  text-gray" href="{{ route('contact') }}">Contact</a>
+                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('contact') }}">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="navbar align-self-center d-flex">
-                <a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>
+                <!--<a class="nav-link text-gray" href="{{ route('blog') }}"><small>Blog</small></a>-->
                 <a class="nav-link btn-outline-primary rounded-pill" href="{{ route('rejoindre_stack') }}"><small>Rejoindre Stack-X</small></a>
             </div>
         </div>
     </div>
 </nav>
 <!-- Close Header -->
+
 <section class="bg-white py-5 first-section" style="margin-top: 225px; margin-bottom: 235px">
     <div class="container">
         <h1 class="text-center header1-mobile">
@@ -291,7 +304,7 @@
                     La maintenance implique des tests réguliers des intégrations de systèmes pour s'assurer que les données sont transmises correctement et que les processus d'intégration fonctionnent comme prévu.
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 img-mobile-resp">
                 <img src="/img/sys.jpg" style="width: 100%; height: 100%">
             </div>
             <div class="creative-progress col-md-7 text-center">
