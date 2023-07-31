@@ -111,7 +111,7 @@
 
 
 <!-- Start Service -->
-<section class="service-wrapper py-3" style="margin-top: 150px; margin-bottom: 20px;">
+<section class="service-wrapper py-3" style="margin-top: 150px; margin-bottom: 50px;">
     <div class="container-fluid pb-3">
         <div class="row">
             <h1 class="h1 text-center col-12 py-5 semi-bold-600">Qui sommes-nous ?</h1>
@@ -127,13 +127,11 @@
 </section>
 
 <!-- Start Progress -->
-<section class="bg-light py-5" id="qui">
+<section class="bg-light py-5" style="margin-top: 50px; margin-bottom: 50px" id="qui">
     <div class="container my-4">
-
         <h1 class="creative-heading h2 pb-3 h1 col-12 py-5 semi-bold-600">
             Toujours vers l'avant
         </h1>
-
         <div class="creative-content row py-3">
             <div class="col-md-5">
                 <p class="text-muted col-lg-8 light-300">
@@ -199,7 +197,7 @@
 <!-- End Progress -->
 
 <!-- Start Team Member -->
-<section class="container py-5" style="margin-bottom: 50px" id="equipe">
+<section class="container py-5" style="margin-top: 50px;margin-bottom: 50px" id="equipe">
     <div class="pb-3 d-lg-flex align-items-center gx-5">
 
         <div class="col-lg-3">
@@ -243,7 +241,7 @@
             <div class="col-lg-6 align-left">
                 <div class="row">
                     <a class="col offset-1" data-type="image" data-fslightbox="gallery" href="">
-                        <img class="img-fluid" src="/img/apple-icon.png" style="max-width: 400px; max-height: 400px">
+                        <img class="img-fluid rounded-3" src="/img/apple-icon.png" style="width: 400px; height: 400px" >
                     </a>
                 </div>
             </div>
