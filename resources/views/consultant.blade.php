@@ -214,13 +214,16 @@
                         <img src="/img/web-04.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
+                        <img src="/img/web-09.png" style="width: 50px;height: 50px">
+                    </div>
+                    <div class="col-2">
                         <img src="/img/desk-01.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
                         <img src="/img/desk-02.png" style="width: 50px;height: 50px">
                     </div>
                     <div class="col-2">
-                        <img src="/img/desk-03.png" style="width: 50px;height: 50px">
+                        <img src="/img/desk-03.png" style="width: 50px;height: 50px" class="mt-2">
                     </div>
                 </div>
             </div>

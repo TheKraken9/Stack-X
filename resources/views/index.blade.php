@@ -325,6 +325,13 @@ https://templatemo.com/tm-561-purple-buzz
                 </a>
             </div>
             <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <div class="col-xl-1 col-md-1 col-sm-2 project tout web">
+                <a href="#" class="service-work card border-0 text-white overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img img-fluid img-mobile" src="/img/web-09.png" alt="Card image">
+                </a>
+            </div>
+            <!-- End Recent Work -->
 
             <!-- Start Recent Work -->
             <div class="col-xl-1 col-md-1 col-sm-2 project tout desktop">
