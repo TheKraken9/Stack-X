@@ -38,7 +38,7 @@
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -75,7 +75,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
+                        <a class="text-decoration-none px-1 bouton_accueil" href="{{ route('technologie') }}">Technologies</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('portfolio') }}">Références</a>
@@ -118,12 +118,12 @@
     <br>
     <br>
     <br>
-    <section>
+    <section class="mb-5">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-8 col-lg-6">
                     <div>
-                        <h2 class="h3 regular-400">
+                        <h2 class="h2 regular-400 header-mobile semi-bold-600">
                             Développement de sites
                             et applications web</h2>
                         <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
@@ -137,34 +137,49 @@
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="row">
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-01.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-02.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-03.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-04.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-05.png" style="width: 80px; height: auto">
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3 mt-5">
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-06.png" style="width: 100px; height: auto">
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3 mt-5">
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-07.png" style="width: 100px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-08.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/web-09.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -174,46 +189,36 @@
     <br>
     <br>
     <br>
-    <section>
+    <section class="mb-5">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-8 col-lg-6 order-last order-md-first">
                     <div class="row">
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/tech-01.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/tech-02.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/tech-03.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/tech-04.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-8 col-lg-6  order-first order-md-last">
                     <div>
-                        <h2 class="h3 regular-400"> Création de vos applications mobiles</h2>
+                        <h2 class="h2 regular-400 header-mobile semi-bold-600"> Création de vos applications mobiles</h2>
                         <p class="light-300"> Nous plaçons l'expérience utilisateur au cœur de nos développements. La
                             meilleure preuve de
                             notre
@@ -228,12 +233,12 @@
     <br>
     <br>
     <br>
-    <section>
+    <section class="mb-5">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-8 col-lg-6">
                     <div>
-                        <h2 class="h3 regular-400">Nous réalisons et maintenons vos logiciels</h3>
+                        <h2 class="h2 regular-400 header-mobile semi-bold-600">Nous réalisons et maintenons vos logiciels</h3>
                             <p class="light-300">Le développement logiciel sur mesure fait partie de notre ADN. L'une de
                                 nos
                                 grandes priorités est de développer des logiciels robustes et facilement maintenables.
@@ -246,34 +251,44 @@
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="row">
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-01.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-02.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-03.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-04.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-05.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-06.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-07.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                         <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
-                        </div>
-                        <div class="col-4 mb-3">
-                            <div class="rectangle" style="background: #D9D9D9; height: 95px;"></div>
+                            <div class="rectangle" style="height: 95px;">
+                                <img src="/img/desk-08.png" style="width: 80px; height: auto">
+                            </div>
                         </div>
                     </div>
                 </div>

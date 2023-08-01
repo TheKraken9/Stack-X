@@ -41,7 +41,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -105,7 +105,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('contact') }}">Contact</a>
+                        <a class="text-decoration-none px-1 bouton_accueil " href="{{ route('contact') }}">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -124,18 +124,18 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="container py-4">
             <div class="row align-items-center justify-content-between">
                 <div class="contact-header col-lg-4">
-                    <h1 class="h2 pb-3 text-primary">Contactez-nous</h1>
-                    <h3 class="h4 regular-400">Nous vous prions d'agréer nos salutations.</h3>
-                    <p class="light-300">
+                    <h2 class="h2 pb-3 text-primary header-mobile-center header-mobile semi-bold-600">Contactez-nous</h2>
+                    <h4 class="h4 regular-400 strong-mobile">Nous vous prions d'agréer nos salutations.</h4>
+                    <p class="light-300 titre-mobile">
                         Si vous pouviez prendre un moment pour discuter, nous en serions très
                         reconnaissants. Veuillez nous faire savoir vos disponibilités pour un éventuel appel ou une
                         réunion.
                     </p>
                 </div>
-                <div class="contact-img col-lg-5 align-items-end col-md-4">
+                <div class="contact-img col-lg-5 align-items-end col-md-4 img-mobile-resp">
                     <br>
                     <br>
-                    <img src="/img/imgbanner-img-01.png" width="400px" height="400px">
+                    <img src="/img/mail.png" width="400px" height="auto">
                 </div>
             </div>
         </div>
@@ -146,9 +146,9 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Start Contact -->
     <section class="container py-5">
 
-        <h1 class="col-12 col-xl-8 h2 text-left text-primary pt-3">Envoyez-nous un mail</h1>
-        <h2 class="col-12 col-xl-8 h4 text-left regular-400">Prennez le temps de nous contacter.</h2>
-        <p class="col-12 col-xl-8 text-left text-muted pb-5 light-300">
+        <h2 class="col-12 col-xl-8 h2 text-left text-primary pt-3 header-mobile semi-bold-600">Envoyez-nous un mail</h2>
+        <h4 class="col-12 col-xl-8 h4 text-left regular-400 strong-mobile">Prennez le temps de nous contacter.</h4>
+        <p class="col-12 col-xl-8 text-left text-muted pb-5 light-300 titre-mobile">
             Nous accordons une grande valeur à votre expertise et nous vous serions extrêmement reconnaissants
             si vous pouviez consacrer un peu de votre temps pour discuter de cette question plus en détail.
             Merci de nous faire savoir vos disponibilités pour un bref appel ou une réunion. Nous sommes ouverts
@@ -191,7 +191,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                     <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
                         <li class="h5 mb-0">Directeur technique</li>
-                        <li class="text-muted">Mr RAJAONARISINA <br>Andriamampiadamanjaka Rado Ny Aina</li>
+                        <li class="text-muted">M. RAJAONARISINA <br>Andriamampiadamanjaka Rado Ny Aina</li>
                         <li class="text-muted">+261 38 47 297 45</li>
                     </ul>
                 </div>

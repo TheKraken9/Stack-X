@@ -43,12 +43,12 @@
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
+                        <a class="text-decoration-none px-1 bouton_accueil d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
                         <!-- Affiche le bouton de toggle pour les écrans plus petits -->
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownApropos" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-decoration-none px-1 bouton_accueil d-inline d-lg-none dropdown-toggle" href="#" id="dropdownApropos" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Société
                         </a>
                         <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownApropos">
@@ -225,14 +225,14 @@
                 </ul>
             </div>
             <div class="team-member col-md-4">
-                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-02.jpg" alt="Card image">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-03.jpg" alt="Card image">
                 <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                     <li class="text-dark">RAJAONARISINA A. Rado Ny Aina</li>
                     <li>Directeur des nouvelles technologies</li>
                 </ul>
             </div>
             <div class="team-member col-md-4">
-                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/team-03.jpg" alt="Card image">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="/img/BOGOSY.png" alt="Card image">
                 <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
                     <li class="text-dark">RAJAOHARISAONA Mamison</li>
                     <li>Directeur des développements et Etudes</li>
@@ -284,23 +284,13 @@
         </p>
         <div class="row text-center">
             <div class="col-md-3 mb-3">
-                <div class="card partner-wap py-5">
-                    <a href="#"><i class='display-1 text-white bx bxs-buildings'></i></a>
+                <div class="card partner-wap py-5 h-100">
+                    <a href="#" class="text-dark h3 text-decoration-none">Hope services</a>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
-                <div class="card partner-wap py-5">
-                    <a href="#"><i class='display-1 bx text-white bxs-check-shield bx-lg'></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <div class="card partner-wap py-5">
-                    <a href="#"><i class='display-1 text-white bx bxs-bolt-circle'></i></a>
-                </div>
-            </div>
-            <div class="col-md-3 mb-3">
-                <div class="card partner-wap py-5">
-                    <a href="#"><i class='display-1 text-white bx bxs-spa'></i></a>
+                <div class="card partner-wap py-5 h-100">
+                    <a href="#" class="text-dark h3 text-decoration-none">E.J.A.</a>
                 </div>
             </div>
         </div>

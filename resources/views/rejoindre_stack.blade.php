@@ -43,7 +43,7 @@
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -125,7 +125,7 @@
 <section class="py-5 mb-5">
     <div class="container">
         <div class="recent-work-header row text-center pb-5">
-            <h2 class="m-auto h2 semi-bold-600 py-5">
+            <h2 class="m-auto h2 semi-bold-600 py-5 header-mobile">
                 Devenez membre de Stack-X
             </h2>
         </div>

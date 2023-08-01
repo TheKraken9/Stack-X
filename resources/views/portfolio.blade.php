@@ -44,7 +44,7 @@
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -84,8 +84,8 @@
                         <a class="text-decoration-none px-1 bouton_accueil text-gray" href="{{ route('technologie') }}">Technologies</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('portfolio') }}">Références</a>
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownReference" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-decoration-none px-1 bouton_accueil d-none d-lg-inline" href="{{ route('portfolio') }}">Références</a>
+                        <a class="text-decoration-none px-1 bouton_accueil d-inline d-lg-none dropdown-toggle" href="#" id="dropdownReference" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Références
                         </a>
                         <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownReference">
@@ -126,33 +126,30 @@
     <section id="Portfolio" class="portfolio">
         <div class="contanier">
             <div class="sec-top">
-                <h1>Latest <span>Projects</span></h1>
+                <h2 class="h2 regular-400 header-mobile semi-bold-600">Nos <span>projets</span></h2>
             </div>
 
             <div class="boxs">
-                <div class="box">
-                    <div class="box-hover">
+                <div class="box" style="width: 200px;height: 100px;">
+                    <div class="">
                         <a href="https://www.hopeservices-sarlu.mg/" target="_blank"
-                            class="text-decoration-none"><span>Hope
-                                Services-Sarlu</span></a>
+                            class="text-decoration-none"></a>
                     </div>
-                    <img src="img/logo hope.png" alt="">
+                    <img src="img/hope.png" alt="">
                 </div>
-                <div class="box">
-                    <div class="box-hover">
+                <div class="box" style="width: 100px;height: 150px;">
+                    <div class="">
                         <a href="https://www.hopeservices-sarlu.mg/" target="_blank"
-                            class="text-decoration-none"><span>Hope
-                                Services-Sarlu</span></a>
+                            class="text-decoration-none"></a>
                     </div>
-                    <img src="img/logo hope.png" alt="">
+                    <img src="img/dessin.png" alt="">
                 </div>
-                <div class="box">
-                    <div class="box-hover">
+                <div class="box" style="width: auto;height: 150px;">
+                    <div class="">
                         <a href="https://www.hopeservices-sarlu.mg/" target="_blank"
-                            class="text-decoration-none"><span>Hope
-                                Services-Sarlu</span></a>
+                            class="text-decoration-none"></a>
                     </div>
-                    <img src="img/logo hope.png" alt="">
+                    <img src="img/eshop.jpg" alt="">
                 </div>
 
                 <!--  <div class="box">

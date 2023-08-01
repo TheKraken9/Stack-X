@@ -44,7 +44,7 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -404,41 +404,47 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="row gy-5 g-lg-5">
                 <!-- Start Recent Work -->
                 <div class="col-md-3 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
-                        <img class="recent-work-img card-img" src="/img/recent-work-01.jpg" alt="Card image">
+                    <div class="recent-work card border-0 shadow-sm overflow-hidden">
+                        <div style="width: auto;height: 250px;">
+                            <img class="recent-work-img card-img" src="/img/hope.png" alt="Card image">
+                        </div>
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Hope Services</h3>
                                 <p class="card-text">Site e-commerce et vitrine</p>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div><!-- End Recent Work -->
 
                 <!-- Start Recent Work -->
                 <div class="col-md-3 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
-                        <img class="recent-work-img card-img" src="/img/recent-work-02.jpg" alt="Card image">
+                    <div class="recent-work card border-0 shadow-sm overflow-hidden">
+                        <div style="width: auto;height: 250px;">
+                            <img class="recent-work-img card-img" src="/img/dessin.png" alt="Card image">
+                        </div>
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">E.J.A.</h3>
                                 <p class="card-text">Site vitrine</p>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div><!-- End Recent Work -->
 
                 <!-- Start Recent Work -->
                 <div class="col-md-3 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-sm overflow-hidden">
-                        <img class="recent-work-img card-img" src="/img/recent-work-03.jpg" alt="Card image">
+                    <div class="recent-work card border-0 shadow-sm overflow-hidden">
+                        <div style="width: auto;height: 250px;">
+                            <img class="recent-work-img card-img" src="/img/eshop.jpg" alt="Card image">
+                        </div>
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">R & D</h3>
-                                <p class="card-text">Sum dolor sit consencutur</p>
+                                <h3 class="card-title light-300">Océane Shop</h3>
+                                <p class="card-text">Vitrine , E-commerce, ERP</p>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div><!-- End Recent Work -->
             </div>
         </div>

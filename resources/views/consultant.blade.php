@@ -43,7 +43,7 @@
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -61,8 +61,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('consultant') }}">Services</a>
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownService" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-decoration-none px-1 bouton_accueil d-none d-lg-inline" href="{{ route('consultant') }}">Services</a>
+                        <a class="text-decoration-none px-1 bouton_accueil d-inline d-lg-none dropdown-toggle" href="#" id="dropdownService" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
                         </a>
                         <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownService">
@@ -134,7 +134,7 @@
 <!-- Start Progress -->
 <section class="bg-light py-5 mt-5" id="consultant">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 text-center header-mobile">Consultant</h1>
+        <h1 class="creative-heading h2 pb-3 text-center header-mobile semi-bold-600">Consultant</h1>
         <div class="creative-content row py-3">
             <div class="text-center">
                 <p class="text-muted light-300">
@@ -154,7 +154,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="ui_ux">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 header-mobile">Design D'expérience utilisateur</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile semi-bold-600">Design D'expérience utilisateur</h1>
         <div class="creative-content row py-3">
             <div class="col-md-4">
                 <h5>Fléxibilité</h5>
@@ -198,7 +198,7 @@
 <!-- Start Progress -->
 <section class="bg-light py-5 mt-5" id="dev_web_app">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 text-center header-mobile">Developpement web et application</h1>
+        <h1 class="creative-heading h2 pb-3 text-center header-mobile semi-bold-600">Developpement web et application</h1>
         <div class="creative-content row py-3">
             <div class="col-md-6">
                 <h5>Accessibilité</h5>
@@ -247,7 +247,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="app_mobile">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 header-mobile">Création application mobile</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile semi-bold-600">Création application mobile</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-7">
@@ -289,7 +289,7 @@
 
 <section class="bg-white py-5 mt-5" id="integration">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 text-center header-mobile">Intégration des systèmes</h1>
+        <h1 class="creative-heading h2 pb-3 text-center header-mobile semi-bold-600">Intégration des systèmes</h1>
         <div class="creative-content row py-3">
             <div class="col-md-4">
                 <h5>Correction des problèmes d'intégration</h5>
@@ -327,7 +327,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="sig">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 header-mobile">Données géographiques</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile semi-bold-600">Données géographiques</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-4">
@@ -372,7 +372,7 @@
 <!-- Start Progress -->
 <section class="bg-light py-5 mt-5" id="objet_connecte">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 header-mobile">Objets connectés</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile semi-bold-600">Objets connectés</h1>
 
         <div class="creative-content row py-3">
             <div class="col-md-6">
@@ -410,7 +410,7 @@
 <!-- Start Progress -->
 <section class="bg-white py-5 mt-5" id="maintenance">
     <div class="container my-4">
-        <h1 class="creative-heading h2 pb-3 header-mobile">Maintenance et hébergement</h1>
+        <h1 class="creative-heading h2 pb-3 header-mobile semi-bold-600">Maintenance et hébergement</h1>
         <div class="creative-content row py-3">
             <div class="col-md-4">
                 <h5>Corriger vos bugs</h5>

@@ -8,8 +8,7 @@
                     <span class="text-light h5">Stack -</span> <span class="text-light h5 semi-bold-600">X</span>
                 </a>
                 <p class="text-light my-lg-4 my-2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut.
+                    Nous vous accompagnons dans la réalisation de vos projets numériques.
                 </p>
                 <ul class="list-inline footer-icons light-300">
                     <li class="list-inline-item m-0">
@@ -34,19 +33,19 @@
                 <h2 class="h4 pb-lg-3 text-light light-300">Services</h2>
                 <ul class="list-unstyled text-light light-300" style="font-size: small;">
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light" href="{{ route('consultant') }}">Consultant</a>
+                        <a class="text-decoration-none text-light" href="{{ route('consultant') }}#consultant">Consultant</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('dev_web_app') }}">Developpement web et application</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('consultant') }}#dev_web_app">Developpement web et application</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('sig') }}">Données géographiques</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('consultant') }}#sig">Données géographiques</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('objet_connecte') }}">Objets connectés</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('consultant') }}#objet_connecte">Objets connectés</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('maintenance_hebergement') }}">Maintenances et hébergements</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('consultant') }}#maintenance">Maintenances et hébergements</a>
                     </li>
                 </ul>
             </div>
@@ -81,16 +80,16 @@
                 <h2 class="h4 pb-lg-3 text-light light-300">Société</h2>
                 <ul class="list-unstyled text-light light-300" style="font-size: small">
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}">À propos</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}#qui">À propos</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('equipe') }}">L'équipe</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}#equipe">L'équipe</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('pourquoi') }}">Pourquoi Stack-X</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}#naissance">Pourquoi Stack-X</a>
                     </li>
                     <li class="pb-2">
-                        <a class="text-decoration-none text-light py-1" href="{{ route('partenaire') }}">Partenaires</a>
+                        <a class="text-decoration-none text-light py-1" href="{{ route('a_propos') }}#partenaire">Partenaires</a>
                     </li>
                 </ul>
             </div>

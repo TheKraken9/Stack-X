@@ -42,7 +42,7 @@
             <div class="flex-fill mx-xl-4">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none dropdown-toggle-no-caret dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}" id="dropdownAccueil" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                        <a class="text-decoration-none dropdown-toggle-no-caret text-gray dropdown-toggle px-1 bouton_accueil" href="{{ route('index') }}">Accueil</a>
                     </li>
                     <li class="nav-item dropdown mx-1">
                         <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('a_propos') }}">Société</a>
@@ -93,8 +93,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown mx-1">
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-none d-lg-inline" href="{{ route('processus_intervention') }}">Processus</a>
-                        <a class="text-decoration-none px-1 bouton_accueil text-gray d-inline d-lg-none dropdown-toggle" href="#" id="dropdownProcessus" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-decoration-none px-1 bouton_accueil d-none d-lg-inline" href="{{ route('processus_intervention') }}">Processus</a>
+                        <a class="text-decoration-none px-1 bouton_accueil d-inline d-lg-none dropdown-toggle" href="#" id="dropdownProcessus" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Processus
                         </a>
                         <div class="dropdown-menu border-0 shadow-lg" aria-labelledby="dropdownProcessus">
@@ -120,9 +120,9 @@
 <!-- Close Header -->
 
     <section id="processus" class="services">
-        <div class="contanier">
-            <div class="sec-top">
-                <h1>Notre <span>Approche</span></h1>
+        <div class="contanier row">
+            <div class="sec-top header-mobile">
+                <h2 class="h2 pb-3 regular-400 header-mobile-center header-mobile semi-bold-600">Notre <span>Approche</span></h2>
             </div>
             <div class="boxs">
                 <div class="box">
@@ -163,39 +163,36 @@
 
 
     <!-- Start Service -->
-    <section class="service-wrapper py-3" id="methodes">
+    <section class="service-wrapper py-3 mb-5" id="methodes">
         <div class="container-fluid pb-3">
             <div class="row">
-                <h1 class="h1 text-center col-12 py-5 semi-bold-600">Nos
+                <h2 class="pb-3 header-mobile-center header-mobile h2 text-center col-12 py-5 semi-bold-600">Nos
                     <span>visions</span> de Methode Coué
-                </h1>
+                </h2>
                 <div class="service-header col-2 col-lg-3 text-end light-300">
-                    <i class='bx bx-gift h3 mt-1'></i>
+                    <i class='bx bx-atom h3 mt-1'></i>
                 </div>
                 <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                    <h2 class="h3 pb-4 typo-space-line">pour garantir
-                        que les efforts et les ressources investis dans <br> les projets informatiques</h2>
+                    <h4 class="h4 text-start pb-4 typo-space-line">pour garantir
+                        que les efforts et les ressources investis dans <br> les projets informatiques</h4>
                 </div>
             </div>
-            <p class="service-footer textes col-10 offset-2 col-lg-9 offset-lg-3  pb-3  px-2">
-                Planifier les actions : Élaborer un plan d'action détaillé pour atteindre chaque objectif, en
+            <p class="service-footer textes col-10 offset-2 col-lg-9 pb-3">
+                <strong>Planifier les actions</strong> : Élaborer un plan d'action détaillé pour atteindre chaque objectif, en
                 identifiant les étapes à suivre, les ressources nécessaires et les échéances.
                 <br>
-                Suivre et évaluer les progrès : Mettre en place des mécanismes de suivi pour évaluer régulièrement les
+                <strong>Suivre et évaluer les progrès</strong> : Mettre en place des mécanismes de suivi pour évaluer régulièrement les
                 progrès réalisés vers l'atteinte des objectifs et apporter des ajustements si nécessaire.
                 <br>
-                Favoriser la collaboration : Impliquer les différentes parties prenantes dans la mise en œuvre des
+                <strong>Favoriser la collaboration</strong> : Impliquer les différentes parties prenantes dans la mise en œuvre des
                 projets informatiques en utilisant des méthodes de travail collaboratives.
                 <br>
-                Améliorer la gestion du changement : Intégrer des pratiques de gestion du changement pour faciliter
+                <strong>Améliorer la gestion du changement</strong> : Intégrer des pratiques de gestion du changement pour faciliter
                 l'adoption des nouvelles technologies et processus par les utilisateurs.
                 <br>
-                Réduire les risques : Appliquer des pratiques de gestion de projet pour minimiser les risques et les
+                <strong>Réduire les risques</strong> : Appliquer des pratiques de gestion de projet pour minimiser les risques et les
                 problèmes potentiels tout au long du processus.
             </p>
-            <br>
-            <br>
-            <br>
         </div>
     </section>
 
